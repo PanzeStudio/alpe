@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic document setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpe - Global Hub for Oil & Energy Transactions</title>
+
+    <!-- Favicon and CSS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <header class="header__section">
+        <div class="navbar__area">
+            <div class="container">
+                <!-- Navbar header -->
+                <div class="navbar__header">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-12 col-lg-3 d-flex align-items-center logo__column">
+                            <a href="index.html" class="nav__logo">
+                                <img src="./assets/images/logo-dark.png" alt="Floxse">
+                            </a>
+                            <!-- Mobile toggle button -->
+                            <button class="toggle__button ms-2 ms-auto d-lg-none" type="button">
+                                <i class="alpe-icon-388"></i>
+                            </button>
+                        </div>
+                        <!-- Navigation menu -->
+                        <div class="col-12 col-lg-9 menu__column">
+                            <nav class="nav__menu">
+                                <ul class="nav__list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Buyers/Suppliers</a></li>
+                                    <li><a href="/">Become Partner</a>
+                                        <!-- Dropdown menu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Become Business Partner</a></li>
+                                            <li><a href="/">Become Agent</a></li>
+                                            <li><a href="/">Physical Market</a>
+                                                <!-- Submenu -->
+                                                <button class="toggle__arrow" type="button">
+                                                    <i class="alpe-icon-624"></i>
+                                                </button>
+                                                <ul>
+                                                    <li><a href="/">Physical Market</a></li>
+                                                    <li><a href="/">About Alpe</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">Physical Market</a></li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar footer with search and actions -->
+                <div class="navbar__footer">
+                    <div class="row g-4 align-items-center">
+                        <!-- Search bar and browse button -->
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
+                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                            </button>
+                            <div class="header__search_form">
+                                <input type="search" class="search__input" placeholder="Type to search">
+                                <div class="custom__select">
+                                    <select name="search__category" id="search__category" class="search__category">
+                                        <option value="product">Product</option>
+                                        <option value="product">News</option>
+                                        <option value="product">Events</option>
+                                        <option value="product">Blog</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                                <button class="primary__button">Search</button>
+                            </div>
+                        </div>
+                        <!-- Login and account actions -->
+                        <div class="col-md-4 text-end d-none d-lg-block">
+                            <a href="/" class="link__button">Log In</a>
+                            <a href="/" class="primary__button">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sticky Navbara -->
+    <div class="sticky__navbar">
+        <div class="container">
+            <div class="sticky__row d-flex flex-wrap align-items-center">
+
+                <a href="index.html" class="nav__logo me-4">
+                    <img src="./assets/images/logo-dark.png" alt="Floxse">
+                </a>
+
+                <div class="d-flex justify-content-end order-1 ms-auto">
+                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="primary__button">Create Account</a>
+                    <button class="toggle__button ms-2 d-lg-none" type="button">
+                        <i class="alpe-icon-388"></i>
+                    </button>
+                </div>
+
+                <div class="menu__column">
+                    <nav class="nav__menu">
+                        <ul class="nav__list justify-content-start">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Buyers/Suppliers</a></li>
+                            <li><a href="/">Become Partner</a>
+                                <!-- Dropdown menu -->
+                                <button class="toggle__arrow" type="button">
+                                    <i class="alpe-icon-624"></i>
+                                </button>
+                                <ul>
+                                    <li><a href="/">Become Business Partner</a></li>
+                                    <li><a href="/">Become Agent</a></li>
+                                    <li><a href="/">Physical Market</a>
+                                        <!-- Submenu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Physical Market</a></li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/">Physical Market</a></li>
+                            <li><a href="/">About Alpe</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main class="content__section">
+
+
+        <!-- Additional Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-10">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Frequently Asked Question</h5>
+                            <div class="text mb-0" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Find Your Answers Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="accordions">
+                    <div class="accordion">
+                        <h5 class="ac__title">How do I post a requirement as a buyer? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            To post a requirement, start by logging into your account. Navigate to the "Post Requirements" section where you will find a form to fill out. Enter details such as the type of product you need, the quantity required, your preferred delivery date, and your budget. After you submit these details, your requirement will be posted on the platform, making it visible to a network of qualified suppliers. These suppliers can view your needs and submit competitive offers, allowing you to select the best match for your requirements based on price, delivery time, and supplier ratings.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">Can I be both a buyer and a supplier? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            Yes, the platform is designed to accommodate users who wish to operate as both buyers and suppliers. You can easily manage both functionalities from a single account. This flexibility allows you to seamlessly switch between buying and selling, maximizing your business opportunities on the platform. This dual functionality makes our platform uniquely advantageous for small to medium enterprises looking to expand their market reach.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">How does the verification process work for suppliers? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            The verification process for suppliers is designed to establish trust and security within the marketplace. New suppliers are required to submit comprehensive business registration documents, along with contact information and additional relevant information that may include past business transactions, certifications, and references from other businesses. This detailed verification ensures that only legitimate and credible suppliers are able to offer their products and services, thus maintaining high standards and protecting all marketplace participants.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">Are there options for bulk discounts or special deals? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            Our platform encourages suppliers to offer bulk discounts and special deals, particularly for larger orders. These discounts are beneficial for both buyers and suppliers as they increase order volumes and build long-term business relationships. Buyers can negotiate directly with suppliers to secure deals that best meet their budgetary and logistical needs, ensuring that both parties achieve favorable outcomes. Special seasonal promotions and volume-based discounts are common, providing ample opportunities for savings.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">What types of oil products can I find on this marketplace? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            This marketplace boasts a diverse assortment of oil products to cater to various industry needs. You can find a wide range of edible oils, such as olive oil, sunflower oil, and canola oil, which are perfect for culinary uses. Additionally, the platform offers industrial oils and lubricants used in machinery and automotive applications. Whether you are looking for food-grade oils or technical lubricants, our extensive catalogue ensures you can find the right product to meet your specifications.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">How is payment handled on the platform? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            The platform provides a variety of secure payment options to suit different buyer and supplier needs, including online payments, bank transfers, and credit facilities. We also offer escrow services where payments are held securely until all conditions of the transaction are met, ensuring that both parties are satisfied. This multi-layered approach to payment security minimizes risks and promotes a safe trading environment for all users.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">How do I cancel or modify a posted requirement? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            If you need to cancel or modify a posted requirement, you can do so easily through your account dashboard. Navigate to the "My Requirements" section, find the specific requirement you wish to change, and you can either update the details to reflect new needs or completely remove the posting if it is no longer relevant. This flexibility allows you to adapt to changing business conditions and update your procurement strategies accordingly.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">How do I track my order after a purchase? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            After placing an order, you can monitor its progress directly from your account dashboard. Navigate to the "Orders" section where you can see detailed tracking information for each purchase. This feature keeps you informed of the order's status from confirmation to delivery, ensuring transparency and helping you plan accordingly for its arrival.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">Can buyers also sell products on Alpe? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            Indeed, Alpe supports a dual role where users can both buy and sell products. This functionality is particularly useful for businesses that operate in multiple stages of the supply chain, providing a versatile platform to manage all commercial activities under one roof. Whether you are sourcing materials for production or selling finished goods, Alpe accommodates all your business needs with ease.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">How does the premium membership differ from the free plan? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            Premium membership offers enhanced features compared to the free plan. These include priority listing in search results, access to advanced analytics tools, and exclusive opportunities for high-value deals. This membership is designed for businesses looking to maximize their visibility and engagement on the platform, providing them with strategic advantages in a competitive market.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">Is there a limit on the number of suppliers I can connect with? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            Our platform does not impose any limits on the number of suppliers you can connect with. This unlimited access allows you to explore a wide range of suppliers, compare offers, and choose the best partners for your business needs, fostering a dynamic and competitive marketplace environment.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">Can I post multiple buying requirements at once? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            Yes, you can post multiple buying requirements simultaneously. This capability is particularly useful for businesses that need to source various items regularly. By posting several requirements at once, you can streamline your procurement process, save time, and attract more supplier offers, enhancing your chances of securing the best deals.
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <h5 class="ac__title">How does Alpe ensure secure transactions? <span class="ms-auto alpe-icon-2"></span></h5>
+                        <div class="ac__content">
+                            Alpe prioritizes security with state-of-the-art encryption technology, comprehensive escrow services, and a rigorous supplier verification process. These measures are in place to protect your financial and operational interests, ensuring that every transaction on the platform is conducted with utmost security and confidence.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Additional Section -->
+        <section class="section__padding">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Need Additional Info?
+                            </h5>
+                            <div class="text mb-4" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Explore more About Alpe, our services, marketplace features, and how we drive
+                                    efficiency
+                                    and growth in the oil industry.</p>
+                            </div>
+                            <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1400">Ask your
+                                question</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer__section bg-black text-white">
+        <!-- Footer Top: Contains navigation links for Customer Support, About Alpe, Resources for Buyers and Sellers -->
+        <div class="footer__top">
+            <div class="container">
+                <div class="row g-5 g-lg-4 row-cols-2 row-cols-lg-4">
+                    <!-- Customer Support Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Customer Support</h6>
+                            <ul class="list">
+                                <li><a href="/">Contact Alpe</a></li>
+                                <li><a href="/">Alpe Blogs</a></li>
+                                <li><a href="/">News & Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- About Alpe Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">About Alpe</h6>
+                            <ul class="list">
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/">Career</a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">Become Alpe Agent</a></li>
+                                <li><a href="/">Become Alpe Business Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Buyers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Buyers</h6>
+                            <ul class="list">
+                                <li><a href="/">Explore Categories</a></li>
+                                <li><a href="/">Post Requirements</a></li>
+                                <li><a href="/">Connect with Suppliers</a></li>
+                                <li><a href="/">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Sellers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Sellers</h6>
+                            <ul class="list">
+                                <li><a href="/">Connect with Buyer</a></li>
+                                <li><a href="/">Alpe Trade Assurance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Center: Logo, description, and social media links -->
+        <div class="footer__center mb-5">
+            <div class="container">
+                <div class="row g-0 justify-content-center text-center">
+                    <div class="col-lg-5">
+                        <figure class="footer__logo mb-3">
+                            <a href="/"><img src="./assets/images/logo-light.png" alt=""></a>
+                        </figure>
+                        <div class="text mb-4">
+                            <p>Alpe connects buyers and suppliers in the oil industry, offering secure, streamlined
+                                trading oils worldwide.</p>
+                        </div>
+                        <div class="social__link">
+                            <a href="/"><i class="alpe-icon-22"></i></a>
+                            <a href="/"><i class="alpe-icon-26"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom: Copyright and legal links -->
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <p>&copy;Alpe 2001-2024 | All Rights Reserved</p>
+                    </div>
+                    <div class="col text-end">
+                        <ul class="list inline">
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/requirement-modal.js"></script>
+    <script src="./assets/js/offer-modal.js"></script>
+    <script src="./assets/js/select.js"></script>
+</body>
+</html>

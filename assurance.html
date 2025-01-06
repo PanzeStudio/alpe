@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic document setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpe - Global Hub for Oil & Energy Transactions</title>
+
+    <!-- Favicon and CSS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <header class="header__section">
+        <div class="navbar__area">
+            <div class="container">
+                <!-- Navbar header -->
+                <div class="navbar__header">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-12 col-lg-3 d-flex align-items-center logo__column">
+                            <a href="index.html" class="nav__logo">
+                                <img src="./assets/images/logo-dark.png" alt="Floxse">
+                            </a>
+                            <!-- Mobile toggle button -->
+                            <button class="toggle__button ms-2 ms-auto d-lg-none" type="button">
+                                <i class="alpe-icon-388"></i>
+                            </button>
+                        </div>
+                        <!-- Navigation menu -->
+                        <div class="col-12 col-lg-9 menu__column">
+                            <nav class="nav__menu">
+                                <ul class="nav__list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Buyers/Suppliers</a></li>
+                                    <li><a href="/">Become Partner</a>
+                                        <!-- Dropdown menu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Become Business Partner</a></li>
+                                            <li><a href="/">Become Agent</a></li>
+                                            <li><a href="/">Physical Market</a>
+                                                <!-- Submenu -->
+                                                <button class="toggle__arrow" type="button">
+                                                    <i class="alpe-icon-624"></i>
+                                                </button>
+                                                <ul>
+                                                    <li><a href="/">Physical Market</a></li>
+                                                    <li><a href="/">About Alpe</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">Physical Market</a></li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar footer with search and actions -->
+                <div class="navbar__footer">
+                    <div class="row g-4 align-items-center">
+                        <!-- Search bar and browse button -->
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
+                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                            </button>
+                            <div class="header__search_form">
+                                <input type="search" class="search__input" placeholder="Type to search">
+                                <div class="custom__select">
+                                    <select name="search__category" id="search__category" class="search__category">
+                                        <option value="product">Product</option>
+                                        <option value="product">News</option>
+                                        <option value="product">Events</option>
+                                        <option value="product">Blog</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                                <button class="primary__button">Search</button>
+                            </div>
+                        </div>
+                        <!-- Login and account actions -->
+                        <div class="col-md-4 text-end d-none d-lg-block">
+                            <a href="/" class="link__button">Log In</a>
+                            <a href="/" class="primary__button">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sticky Navbara -->
+    <div class="sticky__navbar">
+        <div class="container">
+            <div class="sticky__row d-flex flex-wrap align-items-center">
+
+                <a href="index.html" class="nav__logo me-4">
+                    <img src="./assets/images/logo-dark.png" alt="Floxse">
+                </a>
+
+                <div class="d-flex justify-content-end order-1 ms-auto">
+                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="primary__button">Create Account</a>
+                    <button class="toggle__button ms-2 d-lg-none" type="button">
+                        <i class="alpe-icon-388"></i>
+                    </button>
+                </div>
+
+                <div class="menu__column">
+                    <nav class="nav__menu">
+                        <ul class="nav__list justify-content-start">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Buyers/Suppliers</a></li>
+                            <li><a href="/">Become Partner</a>
+                                <!-- Dropdown menu -->
+                                <button class="toggle__arrow" type="button">
+                                    <i class="alpe-icon-624"></i>
+                                </button>
+                                <ul>
+                                    <li><a href="/">Become Business Partner</a></li>
+                                    <li><a href="/">Become Agent</a></li>
+                                    <li><a href="/">Physical Market</a>
+                                        <!-- Submenu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Physical Market</a></li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/">Physical Market</a></li>
+                            <li><a href="/">About Alpe</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main class="content__section">
+
+         <section class="pt-5">
+            <div class="container">
+                <div class="black-image-box" style="background-image: url('./assets/images/assurane.jpg');">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 py-5">
+                            <h1 class="text-white text-center mb-0">Welcome to Alpe Trade Assurance</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <section class="section__padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="text-center">
+                            <h4 class="mb-3">About Alpe Trade Assurance</h4>
+                            <p>Alpe Trade Assurance (ATA) is Alpe's comprehensive trade protection program, crafted to ensure a seamless and secure international trading experience for businesses. Drawing inspiration from programs like Trade Assurance, TrustSEAL Certification, and Trust Stamp Service, ATA enables businesses to confidently connect with reliable suppliers and buyers across the globe, safeguarding every transaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+        <section class="section__padding bg-primary-100">
+            <div class="container">
+                <div class="row g-5 row-cols-1 row-cols-lg-2">
+                    <div class="col">
+                        <div class="cricle__icon_one mb-3">
+                            <i class="alpe-icon-33"></i>
+                        </div>
+                        <h6 class="fw-medium mb-2">Our Vision</h6>
+                        <p>To empower businesses globally by providing a trusted trade assurance solution that simplifies international trade.</p>
+                    </div>
+                    <div class="col">
+                        <div class="cricle__icon_one mb-3">
+                            <i class="alpe-icon-34"></i>
+                        </div>
+                        <h6 class="fw-medium mb-2">Our Mission</h6>
+                        <p>To offer a comprehensive trade protection program that fosters trust, security, and seamless connections in global trade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__padding">
+            <div class="container">
+                <div class="row mb-4 pb-3 justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <h4 class="mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                            How Alpe Trade Assurance works
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="row g-2 row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="info__box bg-white left">
+                            <div class="box__icon">
+                                <i class="alpe-icon-29"></i>
+                            </div>
+                            <h5 class="box__title">Verification Process</h5>
+                            <div class="text">
+                                <p>Rigorous verification to authenticate businesses and products, ensuring compliance with stringent criteria.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="info__box bg-white left">
+                            <div class="box__icon">
+                                <i class="alpe-icon-38"></i>
+                            </div>
+                            <h5 class="box__title">ATA Badge Display</h5>
+                            <div class="text">
+                                <p>Upon verification, businesses earn the Alpe Trade Assurance badge to showcase on their profile and product listings.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="info__box bg-white left">
+                            <div class="box__icon">
+                                <i class="alpe-icon-39"></i>
+                            </div>
+                            <h5 class="box__title">Secure Connection</h5>
+                            <div class="text">
+                                <p>GTA ensures secure connections between verified buyers and sellers, fostering a safe and transparent trade environment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="info__box bg-white left">
+                            <div class="box__icon">
+                                <i class="alpe-icon-40"></i>
+                            </div>
+                            <h5 class="box__title">Comprehensive Support</h5>
+                            <div class="text">
+                                <p>ATA provides continuous support throughout the trading journey with expert assistance and guidance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-5">
+                        <figure class="single__image">
+                            <img src="./assets/images/ass-image-2.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-lg-7">
+                        <h4 class="fw-medium mb-4">Why Choose Alpe Trade Assurance</h4>
+                        <h6 class="fw-medium mb-2">Instant Credibility</h6>
+                        <p>The Alpe Trade Assurance badge boosts credibility and reliability in the global market, encouraging buyers to trust sellers and make advance payments for smoother transactions.</p>
+                        
+                        <h6 class="fw-medium mb-2">Increased Visibility</h6>
+                        <p>Stand out from competitors and attract more potential customers with the Alpe Trade Assurance (ATA) badge prominently displayed.</p>
+                        
+                        <h6 class="fw-medium mb-2">Trustworthy Reputation</h6>
+                        <p>Build a reliable supplier reputation by consistently showcasing your commitment to quality, authenticity, and transparent practices, earning trust and loyalty from your customers.</p>
+                        
+                        <h6 class="fw-medium mb-2">Global Protection</h6>
+                        <p>Membership in the Services Export Promotion Council (SEPC) and collaboration with various international organizations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__padding">
+            <div class="container">
+                <div class="row mb-4 pb-3 justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <h4 class="mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                            Key Features of Alpe Trade Assurance
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center">
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="info__box primary left">
+                            <div class="box__icon">
+                                <i class="alpe-icon-39"></i>
+                            </div>
+                            <h5 class="box__title">Buyer Protection</h5>
+                            <div class="text">
+                                <p>Verified supplier network for authentic and quality products. Secure and transparent trade connections through rigorous verification.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="info__box primary left">
+                            <div class="box__icon">
+                                <i class="alpe-icon-29"></i>
+                            </div>
+                            <h5 class="box__title">Trust Verification</h5>
+                            <div class="text">
+                                <p>A verification badge builds trust and credibility with buyers, assuring them of your authenticity and reliability, encouraging confidence in their decisions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="info__box primary left">
+                            <div class="box__icon">
+                                <i class="alpe-icon-40"></i>
+                            </div>
+                            <h5 class="box__title">Seller Support</h5>
+                            <div class="text">
+                                <p>Tailored subscription plans and trade insights to help sellers access diverse markets. Marketing support with SEO, social media, and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__padding bg-primary-300">
+            <div class="container">
+                <div class="row mb-4 pb-3 justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <h4 class="mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                            Key Features of Alpe Trade Assurance
+                        </h4>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-4">
+                        <div class="bg-white br-lg p-4 h-100 d-flex flex-column justify-content-center">
+                            <h4 class="fw-medium mb-2">01</h4>
+                            <h6 class="fw-medium mb-2">Trade Value</h6>
+                            <p>$987 million in trade transactions facilitated from June 2023 to December 2023.</p>
+                        </div>                        
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row g-3">
+                            <div class="col-lg-6">
+                                <div class="bg-white br-lg p-4 h-100">
+                                    <div class="d-lg-flex">
+                                    <h4 class="fw-medium me-3 mb-2">02</h4>
+                                    <div>
+                                        <h6 class="fw-medium mb-2">Global Reach</h6>
+                                        <p>Over 100+ countries with active participation in international trade.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="bg-white br-lg p-4 h-100">
+                                    <div class="d-lg-flex">
+                                    <h4 class="fw-medium me-3 mb-2">03</h4>
+                                    <div>
+                                        <h6 class="fw-medium mb-2">Verified Businesses</h6>
+                                        <p>10,000+ businesses verified through the rigorous Global Trade Assurance process.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="bg-white br-lg p-4 h-100">
+                                    <div class="d-lg-flex">
+                                    <h4 class="fw-medium me-3 mb-2">04</h4>
+                                    <div>
+                                        <h6 class="fw-medium mb-2">Customer Satisfaction</h6>
+                                        <p>95% customer satisfaction rate among businesses using Global Trade Assurance.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="bg-white br-lg p-4 h-100">
+                                    <div class="d-lg-flex">
+                                    <h4 class="fw-medium me-3 mb-2">05</h4>
+                                    <div>
+                                        <h6 class="fw-medium mb-2">Support Network</h6>
+                                        <p>24/7 customer support with a team of over 200 trade experts.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section__padding">
+            <div class="container">
+                <div class="row mb-4 pb-3 justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <h4 class="mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                            How to Join Alpe Trade Assurance
+                        </h4>
+                    </div>
+                </div>
+                <div class="d-lg-flex align-items-center w-100 justify-content-between">
+                    <div class="col-lg-3 text-center text-lg-start">
+                        <h6 class="fw-medium mb-2">Register Your Business</h6>
+                        <p>Create an account on <span class="text-primary">Alpe</span>
+                            Complete the business verification process.</p>
+                    </div>
+                    <div class="col py-4 text-center">
+                        <img src="./assets/images/arrow-line.svg" class="d-none d-lg-inline-block" alt="">
+                        <img src="./assets/images/arrow-line-down.svg" class="d-lg-none" alt="">
+                    </div>
+                    <div class="col-lg-3 text-center text-lg-start">
+                        <h6 class="fw-medium mb-2">Receive your Badge</h6>
+                        <p>Upon verification, receive the Global Trade Assurance badge to display on your profile.</p>
+                    </div>
+                    <div class="col py-4 text-center">
+                        <img src="./assets/images/arrow-line.svg" class="d-none d-lg-inline-block" alt="">
+                        <img src="./assets/images/arrow-line-down.svg" class="d-lg-none" alt="">
+                    </div>
+                    <div class="col-lg-3 text-center text-lg-start">
+                        <h6 class="fw-medium mb-2">Start Trading Securely</h6>
+                        <p>Enjoy seamless international trade with trusted buyers and sellers worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="bg-primary br-lg p-5 text-center text-black">
+                    <h4 class="mb-3 aos-init aos-animate">Join Alpe Trade Assurance Today!</h4>
+                    <p>Secure you business connection and gain global trust with Alpe Trade Assurance</p>
+                    <div class="pb-2"></div>
+                    <ul class="list inline">
+                        <li><span class="alpe-icon-36 icon"></span><span class="text">Alpe</span></li>
+                        <li><span class="alpe-icon-35 icon"></span><span class="text">support@Alpe</span></li>
+                        <li><span class="alpe-icon-1023 icon"></span><span class="text">+98-920-555-9291</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Additional Section -->
+        <section class="section__padding">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Need Additional Info?
+                            </h5>
+                            <div class="text mb-4" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Explore more About Alpe, our services, marketplace features, and how we drive
+                                    efficiency
+                                    and growth in the oil industry.</p>
+                            </div>
+                            <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1400">Ask your
+                                question</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer__section bg-black text-white">
+        <!-- Footer Top: Contains navigation links for Customer Support, About Alpe, Resources for Buyers and Sellers -->
+        <div class="footer__top">
+            <div class="container">
+                <div class="row g-5 g-lg-4 row-cols-2 row-cols-lg-4">
+                    <!-- Customer Support Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Customer Support</h6>
+                            <ul class="list">
+                                <li><a href="/">Contact Alpe</a></li>
+                                <li><a href="/">Alpe Blogs</a></li>
+                                <li><a href="/">News & Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- About Alpe Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">About Alpe</h6>
+                            <ul class="list">
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/">Career</a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">Become Alpe Agent</a></li>
+                                <li><a href="/">Become Alpe Business Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Buyers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Buyers</h6>
+                            <ul class="list">
+                                <li><a href="/">Explore Categories</a></li>
+                                <li><a href="/">Post Requirements</a></li>
+                                <li><a href="/">Connect with Suppliers</a></li>
+                                <li><a href="/">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Sellers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Sellers</h6>
+                            <ul class="list">
+                                <li><a href="/">Connect with Buyer</a></li>
+                                <li><a href="/">Alpe Trade Assurance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Center: Logo, description, and social media links -->
+        <div class="footer__center mb-5">
+            <div class="container">
+                <div class="row g-0 justify-content-center text-center">
+                    <div class="col-lg-5">
+                        <figure class="footer__logo mb-3">
+                            <a href="/"><img src="./assets/images/logo-light.png" alt=""></a>
+                        </figure>
+                        <div class="text mb-4">
+                            <p>Alpe connects buyers and suppliers in the oil industry, offering secure, streamlined
+                                trading oils worldwide.</p>
+                        </div>
+                        <div class="social__link">
+                            <a href="/"><i class="alpe-icon-22"></i></a>
+                            <a href="/"><i class="alpe-icon-26"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom: Copyright and legal links -->
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <p>&copy;Alpe 2001-2024 | All Rights Reserved</p>
+                    </div>
+                    <div class="col text-end">
+                        <ul class="list inline">
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/requirement-modal.js"></script>
+    <script src="./assets/js/offer-modal.js"></script>
+    <script src="./assets/js/select.js"></script>
+</body>
+</html>

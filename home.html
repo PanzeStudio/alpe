@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic document setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpe - Global Hub for Oil & Energy Transactions</title>
+
+    <!-- Favicon and CSS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body class="home-page">
+
+    <!-- Navbar Section -->
+    <header class="header__section">
+        <div class="navbar__area">
+            <div class="container">
+                <!-- Navbar header -->
+                <div class="navbar__header">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-12 col-lg-3 d-flex align-items-center logo__column">
+                            <a href="index.html" class="nav__logo">
+                                <img src="./assets/images/logo-dark.png" alt="Floxse">
+                            </a>
+                            <!-- Mobile toggle button -->
+                            <button class="toggle__button ms-2 ms-auto d-lg-none" type="button">
+                                <i class="alpe-icon-388"></i>
+                            </button>
+                        </div>
+                        <!-- Navigation menu -->
+                        <div class="col-12 col-lg-9 menu__column">
+                            <nav class="nav__menu">
+                                <ul class="nav__list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Buyers/Suppliers</a></li>
+                                    <li><a href="/">Become Partner</a>
+                                        <!-- Dropdown menu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Become Business Partner</a></li>
+                                            <li><a href="/">Become Agent</a></li>
+                                            <li><a href="/">Physical Market</a>
+                                                <!-- Submenu -->
+                                                <button class="toggle__arrow" type="button">
+                                                    <i class="alpe-icon-624"></i>
+                                                </button>
+                                                <ul>
+                                                    <li><a href="/">Physical Market</a></li>
+                                                    <li><a href="/">About Alpe</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">Physical Market</a></li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar footer with search and actions -->
+                <div class="navbar__footer">
+                    <div class="row g-4 align-items-center">
+                        <!-- Search bar and browse button -->
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
+                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                            </button>
+                            <div class="header__search_form">
+                                <input type="search" class="search__input" placeholder="Type to search">
+                                <div class="custom__select">
+                                    <select name="search__category" id="search__category" class="search__category">
+                                        <option value="product">Product</option>
+                                        <option value="product">News</option>
+                                        <option value="product">Events</option>
+                                        <option value="product">Blog</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                                <button class="primary__button">Search</button>
+                            </div>
+                        </div>
+                        <!-- Login and account actions -->
+                        <div class="col-md-4 text-end d-none d-lg-block">
+                            <a href="/" class="link__button">Log In</a>
+                            <a href="/" class="primary__button">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header Section -->
+        <div class="header__area">
+            <div class="header__image"><img data-aos="fade-down" data-aos-duration="1500"
+                    src="./assets/images/header-image.png" alt=""></div>
+            <div class="container">
+                <div class="row g-4 align-items-center justify-content-center">
+                    <!-- Header content -->
+                    <div class="col-lg-8 text-center">
+                        <h1 class="main__heading mb-4" data-aos="fade-up" data-aos-duration="1000">Global Hub for<br>Oil
+                            &
+                            Energy Transactions</h1>
+                        <div class="sub__heading mb-5" data-aos="fade-up" data-aos-duration="1200">
+                            <p>Partner with the right expert to drive your business growth.</p>
+                        </div>
+                        <!-- Call-to-action button -->
+                        <div class="header__actions">
+                            <a href="/" class="primary__button size__lg" data-aos="fade-up" data-aos-duration="1500">
+                                Browse Physical Market
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <!-- Sticky Navbara -->
+    <div class="sticky__navbar">
+        <div class="container">
+            <div class="sticky__row d-flex flex-wrap align-items-center">
+
+                <a href="index.html" class="nav__logo me-4">
+                    <img src="./assets/images/logo-dark.png" alt="Floxse">
+                </a>
+
+                <div class="d-flex justify-content-end order-1 ms-auto">
+                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="primary__button">Create Account</a>
+                    <button class="toggle__button ms-2 d-lg-none" type="button">
+                        <i class="alpe-icon-388"></i>
+                    </button>
+                </div>
+
+                <div class="menu__column">
+                    <nav class="nav__menu">
+                        <ul class="nav__list justify-content-start">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Buyers/Suppliers</a></li>
+                            <li><a href="/">Become Partner</a>
+                                <!-- Dropdown menu -->
+                                <button class="toggle__arrow" type="button">
+                                    <i class="alpe-icon-624"></i>
+                                </button>
+                                <ul>
+                                    <li><a href="/">Become Business Partner</a></li>
+                                    <li><a href="/">Become Agent</a></li>
+                                    <li><a href="/">Physical Market</a>
+                                        <!-- Submenu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Physical Market</a></li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/">Physical Market</a></li>
+                            <li><a href="/">About Alpe</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <main class="content__section">
+        <!-- High-Demand Section -->
+        <section class="section__padding">
+            <div class="container">
+
+                <!-- Section Title: High-Demand Items with fade-up animation -->
+                <h3 class="section__title mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    High-Demand Items
+                </h3>
+
+                <!-- Row containing the content (left and right side of the section) -->
+                <div class="row g-4">
+
+                    <!-- Left side (larger item, takes 8 columns on medium screens) -->
+                    <div class="col-md-8">
+                        <div class="demand__item">
+
+                            <!-- Image for the high-demand item -->
+                            <figure class="demand__image">
+                                <img src="./assets/images/demand-1.jpg" alt="">
+                            </figure>
+
+                            <!-- Content box with center alignment and padding -->
+                            <div class="demand__content center p-3 p-lg-5">
+                                <!-- Title for the first item with fade-up animation -->
+                                <h3 class="demand__title mb-4" data-aos="fade-up" data-aos-duration="1000">
+                                    Grow your business With Alpe Partner
+                                </h3>
+                                <!-- Button to explore Alpe with fade-up animation -->
+                                <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1200">
+                                    Explore Alpe
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right side (two smaller items, each takes 12 columns on small screens) -->
+                    <div class="col-md-4">
+                        <div class="row g-4">
+
+                            <!-- First smaller item -->
+                            <div class="col-12">
+                                <div class="demand__item">
+
+                                    <!-- Image for the second item -->
+                                    <figure class="demand__image">
+                                        <img src="./assets/images/demand-2.jpg" alt="">
+                                    </figure>
+
+                                    <!-- Content box aligned to the bottom with padding -->
+                                    <div class="demand__content bottom p-3 p-lg-4">
+                                        <!-- Title for the second item with fade-up animation -->
+                                        <h5 class="demand__title mb-3" data-aos="fade-up" data-aos-duration="1000">
+                                            Trusted Refined Petroleum Solutions
+                                        </h5>
+                                        <!-- Button to claim the offer with fade-up animation -->
+                                        <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1200">
+                                            Claim Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Second smaller item -->
+                            <div class="col-12">
+                                <div class="demand__item">
+                                    <!-- Image for the third item -->
+                                    <figure class="demand__image">
+                                        <img src="./assets/images/demand-3.jpg" alt="">
+                                    </figure>
+
+                                    <!-- Content box aligned to the top with padding -->
+                                    <div class="demand__content top p-3 p-lg-4">
+                                        <!-- Title for the third item with fade-up animation -->
+                                        <h5 class="demand__title mb-3" data-aos="fade-up" data-aos-duration="1000">
+                                            Grow your business With Alpe Partner
+                                        </h5>
+                                        <!-- Button to post requirements with fade-up animation -->
+                                        <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1200">
+                                            Post Requirements
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call to Action Section -->
+        <section class="call_to_action__section">
+            <div class="container">
+
+                <!-- Section with background color, border, padding, and content -->
+                <div class="bg-secondary border-gray-100 border br-xl p-4 p-md-5">
+
+                    <!-- Heading row with centered text and fade-up animation -->
+                    <div class="row mb-4 justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Main heading for the call to action with fade-up effect -->
+                            <h3 class="mb-2 text-center" data-aos="fade-up" data-aos-duration="1000">
+                                World's Leading B2B Oil Marketplace & Most Trusted Industry Hub
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- Info items section with inline boxes for key selling points -->
+                    <div class="info__items">
+                        <!-- Each of the following boxes represents a feature with an icon and text -->
+                        <div class="inline__info_box" data-aos="fade-left" data-aos-duration="1000">
+                            <!-- Icon for Trade with Confidence -->
+                            <span class="box__icon">
+                                <i class="alpe-icon-1"></i>
+                            </span>
+                            <!-- Text for the feature -->
+                            <div class="box__text">Trade with Confidence</div>
+                        </div>
+
+                        <div class="inline__info_box" data-aos="fade-left" data-aos-duration="1100">
+                            <!-- Icon for Verified Buyers -->
+                            <span class="box__icon">
+                                <i class="alpe-icon-38"></i>
+                            </span>
+                            <div class="box__text">Verified Buyers</div>
+                        </div>
+
+                        <div class="inline__info_box" data-aos="fade-left" data-aos-duration="1200">
+                            <!-- Icon for Global Network -->
+                            <span class="box__icon">
+                                <i class="alpe-icon-36"></i>
+                            </span>
+                            <div class="box__text">Global Network</div>
+                        </div>
+
+                        <div class="inline__info_box" data-aos="fade-left" data-aos-duration="1300">
+                            <!-- Icon for 24/7 Help Center -->
+                            <span class="box__icon">
+                                <i class="alpe-icon-40"></i>
+                            </span>
+                            <div class="box__text">24/7 Help Center</div>
+                        </div>
+                    </div>
+
+                    <!-- Call to Action button with fade-up effect and animation -->
+                    <div class="mt-5 text-center">
+                        <a href="/" class="primary__button size__lg" data-aos="fade-up" data-aos-duration="1350">
+                            Create Account Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Section for displaying offers with top padding -->
+        <section class="offers__section section__padding_top">
+            <div class="container">
+
+                <!-- Wrapper for the offer table -->
+                <div class="offer__table__wrapper">
+
+                    <!-- Table for displaying offers with headers and data -->
+                    <table class="table offer__table">
+
+                        <!-- Table Header with icons for each column -->
+                        <thead>
+                            <tr>
+                                <!-- Column headers with FontAwesome icons -->
+                                <th><i class="alpe-icon-0"></i> Release date</th>
+                                <th><i class="alpe-icon-52"></i> Size</th>
+                                <th><i class="alpe-icon-59"></i> Ring</th>
+                                <th><i class="alpe-icon-43"></i> Commodity</th>
+                                <th><i class="alpe-icon-53"></i> Supplier</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <!-- Example of multiple rows with unique offer details -->
+                            <tr>
+                                <td data-title="Release date">29/10/24</td>
+                                <td data-title="Size">100 Tons</td>
+                                <td data-title="Ring">
+                                    <!-- Flag icon and country name -->
+                                    <div class="flex-center"><span class="flag fi-ae me-1"></span> UAE</div>
+                                </td>
+                                <td data-title="Commodity">Heavy Duty Cutting</td>
+                                <td data-title="Supplier">Shazand Petrochemical Company</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">01/11/24</td>
+                                <td data-title="Size">50 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-us me-1"></span> USA</div>
+                                </td>
+                                <td data-title="Commodity">Light Industrial Grease</td>
+                                <td data-title="Supplier">ExxonMobil</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">15/11/24</td>
+                                <td data-title="Size">200 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-cn me-1"></span> China</div>
+                                </td>
+                                <td data-title="Commodity">Polyethylene</td>
+                                <td data-title="Supplier">Sinopec</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">25/10/24</td>
+                                <td data-title="Size">300 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-in me-1"></span> India</div>
+                                </td>
+                                <td data-title="Commodity">HDPE Resin</td>
+                                <td data-title="Supplier">Reliance Industries</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">05/12/24</td>
+                                <td data-title="Size">80 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-sa me-1"></span> Saudi Arabia</div>
+                                </td>
+                                <td data-title="Commodity">Synthetic Rubber</td>
+                                <td data-title="Supplier">Aramco Chemicals</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">12/12/24</td>
+                                <td data-title="Size">120 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-ru me-1"></span> Russia</div>
+                                </td>
+                                <td data-title="Commodity">Crude Oil</td>
+                                <td data-title="Supplier">Gazprom Neft</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">20/12/24</td>
+                                <td data-title="Size">90 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-br me-1"></span> Brazil</div>
+                                </td>
+                                <td data-title="Commodity">Bioethanol</td>
+                                <td data-title="Supplier">Petrobras</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">10/01/25</td>
+                                <td data-title="Size">75 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-ng me-1"></span> Nigeria</div>
+                                </td>
+                                <td data-title="Commodity">Natural Gas</td>
+                                <td data-title="Supplier">NNPC Limited</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">15/01/25</td>
+                                <td data-title="Size">180 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-jp me-1"></span> Japan</div>
+                                </td>
+                                <td data-title="Commodity">Industrial Lubricants</td>
+                                <td data-title="Supplier">JXTG Nippon Oil</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">20/01/25</td>
+                                <td data-title="Size">65 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-de me-1"></span> Germany</div>
+                                </td>
+                                <td data-title="Commodity">Polypropylene</td>
+                                <td data-title="Supplier">BASF</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </div>
+
+                <!-- Button to view all offers with animation on scroll -->
+                <div class="mt-4 text-center">
+                    <a href="/" class="primary__button size__lg" data-aos="fade-up" data-aos-duration="1350">
+                        View All Offers
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section with padding for spacing -->
+        <section class="section__padding">
+            <div class="container">
+                <!-- Section Title with fade-up animation on scroll -->
+                <h3 class="section__title mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    Exclusive Deals
+                </h3>
+
+                <!-- Row to display the deals in three columns with spacing between them -->
+                <div class="row g-5 g-md-4 row-cols-1 row-cols-md-3">
+
+                    <!-- First Deal Item (Column 1) -->
+                    <div class="col">
+                        <div class="deal__item" data-aos="fade-up" data-aos-duration="1000">
+                            <!-- Deal Image (Crude Oil) -->
+                            <figure class="deal__image">
+                                <img src="./assets/images/deal-1.jpg" alt="">
+                            </figure>
+                            <!-- Deal Title (Crude Oil) with a link to a detail page -->
+                            <h6 class="deal__title"><a href="/">Crude Oil</a></h6>
+
+                            <!-- List of deal benefits with icons -->
+                            <ul class="icon__list">
+                                <li><span class="icon"><i class="alpe-icon-59-check"></i></span>Save up to
+                                    $10,000
+                                    on bulk shipping.</li>
+                                <li><span class="icon"><i class="alpe-icon-59-check"></i></span>Multi-order
+                                    savings
+                                    up to $15,000.</li>
+                            </ul>
+
+                            <!-- Button to read more details and the deal logo -->
+                            <div class="d-flex mt-4">
+                                <a href="/" class="dark__button outline me-4">Read Details</a>
+                                <div class="deal__logo">
+                                    <img src="./assets/images/deal-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Deal Item (Column 2) -->
+                    <div class="col">
+                        <div class="deal__item" data-aos="fade-up" data-aos-duration="1200">
+                            <!-- Deal Image (Lubricants and Greases) -->
+                            <figure class="deal__image">
+                                <img src="./assets/images/deal-2.jpg" alt="">
+                            </figure>
+                            <!-- Deal Title (Lubricants and Greases) with a link to a detail page -->
+                            <h6 class="deal__title"><a href="/">Lubricants and Greases</a></h6>
+
+                            <!-- List of deal benefits with icons -->
+                            <ul class="icon__list">
+                                <li><span class="icon"><i class="alpe-icon-59-check"></i></span>Save up to
+                                    $10,000
+                                    on bulk shipping.</li>
+                                <li><span class="icon"><i class="alpe-icon-59-check"></i></span>Multi-order
+                                    savings
+                                    up to $15,000.</li>
+                            </ul>
+
+                            <!-- Button to read more details and the deal logo -->
+                            <div class="d-flex mt-4">
+                                <a href="/" class="dark__button outline me-4">Read Details</a>
+                                <div class="deal__logo">
+                                    <img src="./assets/images/deal-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Third Deal Item (Column 3) -->
+                    <div class="col">
+                        <div class="deal__item" data-aos="fade-up" data-aos-duration="1400">
+                            <!-- Deal Image (Industrial Liquefied Natural Gas - LNG) -->
+                            <figure class="deal__image">
+                                <img src="./assets/images/deal-3.jpg" alt="">
+                            </figure>
+                            <!-- Deal Title (Industrial LNG) with a link to a detail page -->
+                            <h6 class="deal__title"><a href="/">Industrial Liquefied Natural Gas (LNG)</a></h6>
+
+                            <!-- List of deal benefits with icons -->
+                            <ul class="icon__list">
+                                <li><span class="icon"><i class="alpe-icon-59-check"></i></span>Save up to
+                                    $10,000
+                                    on bulk shipping.</li>
+                                <li><span class="icon"><i class="alpe-icon-59-check"></i></span>Multi-order
+                                    savings
+                                    up to $15,000.</li>
+                            </ul>
+
+                            <!-- Button to read more details and the deal logo -->
+                            <div class="d-flex mt-4">
+                                <a href="/" class="dark__button outline me-4">Read Details</a>
+                                <div class="deal__logo">
+                                    <img src="./assets/images/deal-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section with padding at the bottom -->
+        <section class="section__padding_bottom">
+            <div class="container">
+                <!-- Row to organize content with spacing between columns -->
+                <div class="row g-4">
+
+                    <!-- First column with product posting information -->
+                    <div class="col-lg-5">
+                        <div class="bg-secondary border-gray-100 border br-xl p-4 p-md-5 flex-center h-100">
+                            <!-- Heading with a brief call to action for posting buying requirements -->
+                            <h4 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Post Your Buying
+                                Requirements— It Only Takes a Few Clicks!</h4>
+                            <div class="text" data-aos="fade-up" data-aos-duration="1200">
+                                <!-- Description text providing further details about the service -->
+                                <p>We connect you with top suppliers tailored to your needs, trusted by countless
+                                    manufacturers, exporters, and buyers. Count on us for quality products at fair
+                                    prices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second column with the actual form to submit buying requirements -->
+                    <div class="col-lg-7">
+                        <form class="post-requirements-from bg-white border-gray-100 border br-xl p-4 p-md-5 flex-center h-100">
+                            <!-- Row for form fields with spacing between elements -->
+                            <div class="row g-2">
+                                <!-- First half of the form (left column) -->
+                                <div class="col-md-6">
+                                    <div class="row g-2 row-cols-1">
+                                        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                            <!-- Input field for product name -->
+                                            <input type="text" class="input__control" placeholder="Product Name"
+                                                required>
+                                        </div>
+                                        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                            <!-- Dropdown for selecting the quantity (in tons) -->
+                                            <div class="custom__select">
+                                                <select name="quantity" id="quantity" class="select__control">
+                                                    <option value="100">100 Tons</option>
+                                                    <option value="200">200 Tons</option>
+                                                    <option value="300">300 Tons</option>
+                                                    <option value="400">400 Tons</option>
+                                                    <option value="500">500 Tons</option>
+                                                    <option value="600">600 Tons</option>
+                                                </select>
+                                                <div class="select_options"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                            <!-- Dropdown for shipping terms (FOB, CIF, etc.) -->
+                                            <div class="custom__select">
+                                                <select name="shipping_terms" id="shipping_terms" class="select__control">
+                                                    <option value="FOB">FOB</option>
+                                                    <option value="CIF">CIF</option>
+                                                    <option value="DDP">DDP</option>
+                                                    <option value="EXW">EXW</option>
+                                                </select>
+                                                <div class="select_options"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                            <!-- Dropdown for selecting delivery timeline -->
+                                            <div class="custom__select">
+                                                <select name="delivery_timeline" id="delivery_timeline"
+                                                    class="select__control">
+                                                    <option value="2-3 weeks">2-3 weeks</option>
+                                                    <option value="4-5 weeks">4-5 weeks</option>
+                                                    <option value="6-8 weeks">6-8 weeks</option>
+                                                    <option value="10-12 weeks">10-12 weeks</option>
+                                                </select>
+                                                <div class="select_options"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                            <!-- Dropdown for selecting payment methods -->
+                                            <div class="custom__select">
+                                                <select name="payment_methods" id="payment_methods" class="select__control">
+                                                    <option value="Bank Transfer">Bank Transfer</option>
+                                                    <option value="Letter of Credit">Letter of Credit</option>
+                                                    <option value="Cash on Delivery">Cash on Delivery</option>
+                                                    <option value="Advance Payment">Advance Payment</option>
+                                                </select>
+                                                <div class="select_options"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Second half of the form (right column) -->
+                                <div class="col-md-6">
+                                    <div class="row g-2 row-cols-1">
+                                        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                            <!-- Textarea for users to describe their requirements -->
+                                            <textarea name="requirements" id="requirements" class="input__control"
+                                                rows="10" placeholder="Describe your requirements"></textarea>
+                                        </div>
+                                        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                            <!-- Submit button to send the form -->
+                                            <button class="primary__button size__lg w-100" type="submit">Submit your
+                                                Request</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Call to Action Section -->
+        <section class="call_to_action__section">
+            <div class="container">
+
+                <!-- Section with background color, border, padding, and content -->
+                <div class="bg-black border-gray-100 border br-xl box-padding">
+
+                    <!-- Heading row with centered text and fade-up animation -->
+                    <div class="row mb-4 pb-3 justify-content-center text-center">
+                        <div class="col-lg-10">
+                            <!-- Main heading for the call to action with fade-up effect -->
+                            <h4 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="1000">
+                                Partner with Alpe to Drive Growth and Opportunity
+                            </h4>
+                            <div class="text text-light w-75 d-inline-block" data-aos="fade-up"
+                                data-aos-duration="1200">
+                                <p>Join Alpe as a Business Partner or Agent and unlock exclusive opportunities to grow
+                                    with
+                                    a leading B2B marketplace in the oil sector. Let's drive success together!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Call to Action button with fade-up effect and animation -->
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="1300">
+                        <a href="/" class="primary__button m-2">
+                            Become Alpe Business Partner
+                        </a>
+                        <a href="/" class="primary__button outline m-2">
+                            Become Alpe Agent
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__padding">
+            <div class="container">
+                <!-- Section Heading -->
+                <div class="row mb-4 pb-3 justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <!-- Section Title -->
+                        <h4 class="mb-0" data-aos="fade-up" data-aos-duration="1000">
+                            Unlock the Key Benefits of Alpe.
+                        </h4>
+                    </div>
+                </div>
+
+                <!-- Info Boxes Row -->
+                 
+                <div class="row g-4 row-cols-1 row-cols-md-3">
+                    <!-- Info Box 1: Global Exposure -->
+                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="info__box">
+                            <div class="box__icon">
+                                <!-- FontAwesome Icon for Globe -->
+                                <i class="alpe-icon-36"></i>
+                            </div>
+                            <h5 class="box__title">Global Exposure</h5>
+                            <div class="text">
+                                <p>We connect exporters, manufacturers, and clients globally, offering exposure and
+                                    new
+                                    business opportunities.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Info Box 2: Genuine Leads -->
+                    <div class="col" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="info__box">
+                            <div class="box__icon">
+                                <!-- FontAwesome Icon for Users -->
+                                <i class="alpe-icon-38"></i>
+                            </div>
+                            <h5 class="box__title">Genuine Leads</h5>
+                            <div class="text">
+                                <p>We generate authentic, sales-qualified leads for our clients across a wide range
+                                    of
+                                    industries.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Info Box 3: Advertising Services -->
+                    <div class="col" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="info__box">
+                            <div class="box__icon">
+                                <!-- FontAwesome Icon for Bullhorn -->
+                                <i class="alpe-icon-44"></i>
+                            </div>
+                            <h5 class="box__title">Advertising Services</h5>
+                            <div class="text">
+                                <p>We help small and medium businesses grow with affordable marketing and
+                                    advertising.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter__section">
+            <div class="container">
+                <div class="secondary-box p-4 p-md-5">
+                    <h6 class="text-primary text-center fw-medium mb-2" data-aos="fade-up" data-aos-duration="1000">
+                        Newsletter</h6>
+                    <h4 class="mb-5 text-center fw-semibold" data-aos="fade-up" data-aos-duration="1200">Stay Updated on
+                        What's Happening in the Oil Industry!</h4>
+                    <form class="row g-2 justify-content-center" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="col-8 col-lg-4"><input type="email" placeholder="Enter your email address"
+                                class="input__control"></div>
+                        <div class="col-4 col-lg-2"><button type="submit"
+                                class="primary__button size__md w-100">Subscribe</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner Image Section -->
+        <section class="section__padding">
+            <div class="container">
+                <h4 class="mb-0 text-center mb-5 fw-semibold" data-aos="fade-up" data-aos-duration="1000">
+                    Our Official Partners
+                </h4>
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1200"><img
+                        src="./assets/images/partner.png" alt="Partner Logo"></div>
+            </div>
+        </section>
+
+        <!-- Additional Section -->
+        <section class="section__padding_bottom">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Need Additional Info?
+                            </h5>
+                            <div class="text mb-4" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Explore more About Alpe, our services, marketplace features, and how we drive
+                                    efficiency
+                                    and growth in the oil industry.</p>
+                            </div>
+                            <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1400">Ask your
+                                question</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer__section bg-black text-white">
+        <!-- Footer Top: Contains navigation links for Customer Support, About Alpe, Resources for Buyers and Sellers -->
+        <div class="footer__top">
+            <div class="container">
+                <div class="row g-5 g-lg-4 row-cols-2 row-cols-lg-4">
+                    <!-- Customer Support Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Customer Support</h6>
+                            <ul class="list">
+                                <li><a href="/">Contact Alpe</a></li>
+                                <li><a href="/">Alpe Blogs</a></li>
+                                <li><a href="/">News & Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- About Alpe Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">About Alpe</h6>
+                            <ul class="list">
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/">Career</a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">Become Alpe Agent</a></li>
+                                <li><a href="/">Become Alpe Business Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Buyers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Buyers</h6>
+                            <ul class="list">
+                                <li><a href="/">Explore Categories</a></li>
+                                <li><a href="/">Post Requirements</a></li>
+                                <li><a href="/">Connect with Suppliers</a></li>
+                                <li><a href="/">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Sellers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Sellers</h6>
+                            <ul class="list">
+                                <li><a href="/">Connect with Buyer</a></li>
+                                <li><a href="/">Alpe Trade Assurance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Center: Logo, description, and social media links -->
+        <div class="footer__center mb-5">
+            <div class="container">
+                <div class="row g-0 justify-content-center text-center">
+                    <div class="col-lg-5">
+                        <figure class="footer__logo mb-3">
+                            <a href="/"><img src="./assets/images/logo-light.png" alt=""></a>
+                        </figure>
+                        <div class="text mb-4">
+                            <p>Alpe connects buyers and suppliers in the oil industry, offering secure, streamlined
+                                trading oils worldwide.</p>
+                        </div>
+                        <div class="social__link">
+                            <a href="/"><i class="alpe-icon-22"></i></a>
+                            <a href="/"><i class="alpe-icon-26"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom: Copyright and legal links -->
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <p>&copy;Alpe 2001-2024 | All Rights Reserved</p>
+                    </div>
+                    <div class="col text-end">
+                        <ul class="list inline">
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/requirement-modal.js"></script>
+    <script src="./assets/js/offer-modal.js"></script>
+    <script src="./assets/js/select.js"></script>
+</body>
+
+</html>

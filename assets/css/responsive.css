@@ -1,0 +1,187 @@
+@media only screen and (min-width: 1200px) {
+    .position-sticky-top {
+        position: sticky;
+        top: 0px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .menu__column {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .link__button,
+    .primary__button,
+    .dark__button {
+        padding: 9px 20px;
+    }
+    nav.nav__menu .nav__list>li {
+        padding: 0 8px;
+    }
+}
+    @media only screen and (max-width: 992px) {
+    nav.nav__menu .nav__list {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding-top: var(--spacing-md);
+        padding-bottom: var(--spacing-md);
+    }
+
+    nav.nav__menu .nav__list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav.nav__menu .nav__list li {
+        width: 100%;
+        padding: 0px;
+    }
+
+    nav.nav__menu .nav__list li:not(:last-child) {
+        margin-bottom: var(--spacing-md);
+    }
+
+    nav.nav__menu .nav__list li a {
+        padding: 0px;
+    }
+
+    nav.nav__menu .nav__list li .toggle__arrow {
+        margin-left: auto;
+    }
+
+    nav.nav__menu .nav__list li ul {
+        width: 100%;
+        padding-left: var(--spacing-xl);
+        padding-top: var(--spacing-md);
+        display: none;
+    }
+
+    nav.nav__menu .nav__list li .toggle__arrow {
+        line-height: var(--spacing-md);
+        width: calc(var(--spacing-md) * 2);
+        height: var(--spacing-md);
+        text-align: right;
+    }
+
+    .toggle__arrow i {
+        transform: rotate(0deg);
+        transition: var(--transition-normal);
+    }
+
+    .toggle__arrow.active i {
+        transform: rotate(180deg);
+    }
+
+    .menu__column {
+        display: none;
+    }
+
+    .navbar__area .navbar__footer .row,
+    .navbar__area .navbar__header .row {
+        min-height: 70px;
+        padding: 10px 0px;
+    }
+
+    .navbar__area .navbar__header .row .logo__column {
+        min-height: 50px;
+    }
+
+    /* Offer Table */
+    .offer__table__wrapper {
+        padding: var(--spacing-md);
+    }
+
+    .offer__table,
+    .offer__table thead,
+    .offer__table tbody,
+    .offer__table tr,
+    .offer__table td,
+    .offer__table th {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .offer__table thead {
+        display: none;
+    }
+
+    .offer__table tr {
+        margin-bottom: var(--spacing-lg);
+        border: 1px solid var(--gray-100);
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-md);
+    }
+
+    .offer__table tr td,
+    .offer__table tr th {
+        border-radius: 0px;
+    }
+
+    .offer__table td {
+        border: none !important;
+        border-radius: none !important;
+        background: none !important;
+        height: 100%;
+        padding: var(--spacing-xs);
+    }
+
+
+    .offer__table tr:last-child {
+        margin-bottom: 0px;
+    }
+
+    .offer__table td[data-title]:before {
+        content: attr(data-title);
+        width: 100%;
+        background-color: var(--gray-100);
+        color: var(--black);
+        padding: calc(var(--spacing-sm) - 4px) calc(var(--spacing-sm) + 2px);
+        border-radius: var(--border-radius-sm);
+        margin-bottom: var(--spacing-xs);
+        font-size: calc(var(--font-size-base) - 2px);
+    }
+
+    .offer__table td:nth-child(1),
+    .offer__table td:nth-child(2),
+    .offer__table td:nth-child(3) {
+        width: 33.33%;
+    }
+
+    .header__area {
+        padding-top: calc(var(--spacing-xl) * 3);
+        padding-bottom: calc(var(--spacing-xl) * 4);
+    }
+
+    .footer__section {
+        position: relative;
+    }
+
+    .footer__bottom {
+        text-align: center;
+    }
+
+    .footer__bottom .list.inline {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__widget .widget__title {
+        font-size: calc(var(--font-size-base) * 1.2);
+    }
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+    }
+
+    .menu__column {
+        width: 100%;
+        order: 1;
+    }
+}

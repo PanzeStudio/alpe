@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic document setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpe - Global Hub for Oil & Energy Transactions</title>
+
+    <!-- Favicon and CSS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <header class="header__section">
+        <div class="navbar__area">
+            <div class="container">
+                <!-- Navbar header -->
+                <div class="navbar__header">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-12 col-lg-3 d-flex align-items-center logo__column">
+                            <a href="index.html" class="nav__logo">
+                                <img src="./assets/images/logo-dark.png" alt="Floxse">
+                            </a>
+                            <!-- Mobile toggle button -->
+                            <button class="toggle__button ms-2 ms-auto d-lg-none" type="button">
+                                <i class="alpe-icon-388"></i>
+                            </button>
+                        </div>
+                        <!-- Navigation menu -->
+                        <div class="col-12 col-lg-9 menu__column">
+                            <nav class="nav__menu">
+                                <ul class="nav__list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Buyers/Suppliers</a></li>
+                                    <li><a href="/">Become Partner</a>
+                                        <!-- Dropdown menu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Become Business Partner</a></li>
+                                            <li><a href="/">Become Agent</a></li>
+                                            <li><a href="/">Physical Market</a>
+                                                <!-- Submenu -->
+                                                <button class="toggle__arrow" type="button">
+                                                    <i class="alpe-icon-624"></i>
+                                                </button>
+                                                <ul>
+                                                    <li><a href="/">Physical Market</a></li>
+                                                    <li><a href="/">About Alpe</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">Physical Market</a></li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar footer with search and actions -->
+                <div class="navbar__footer">
+                    <div class="row g-4 align-items-center">
+                        <!-- Search bar and browse button -->
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
+                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                            </button>
+                            <div class="header__search_form">
+                                <input type="search" class="search__input" placeholder="Type to search">
+                                <div class="custom__select">
+                                    <select name="search__category" id="search__category" class="search__category">
+                                        <option value="product">Product</option>
+                                        <option value="product">News</option>
+                                        <option value="product">Events</option>
+                                        <option value="product">Blog</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                                <button class="primary__button">Search</button>
+                            </div>
+                        </div>
+                        <!-- Login and account actions -->
+                        <div class="col-md-4 text-end d-none d-lg-block">
+                            <a href="/" class="link__button">Log In</a>
+                            <a href="/" class="primary__button">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Sticky Navbara -->
+    <div class="sticky__navbar">
+        <div class="container">
+            <div class="sticky__row d-flex flex-wrap align-items-center">
+
+                <a href="index.html" class="nav__logo me-4">
+                    <img src="./assets/images/logo-dark.png" alt="Floxse">
+                </a>
+
+                <div class="d-flex justify-content-end order-1 ms-auto">
+                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="primary__button">Create Account</a>
+                    <button class="toggle__button ms-2 d-lg-none" type="button">
+                        <i class="alpe-icon-388"></i>
+                    </button>
+                </div>
+
+                <div class="menu__column">
+                    <nav class="nav__menu">
+                        <ul class="nav__list justify-content-start">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Buyers/Suppliers</a></li>
+                            <li><a href="/">Become Partner</a>
+                                <!-- Dropdown menu -->
+                                <button class="toggle__arrow" type="button">
+                                    <i class="alpe-icon-624"></i>
+                                </button>
+                                <ul>
+                                    <li><a href="/">Become Business Partner</a></li>
+                                    <li><a href="/">Become Agent</a></li>
+                                    <li><a href="/">Physical Market</a>
+                                        <!-- Submenu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Physical Market</a></li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/">Physical Market</a></li>
+                            <li><a href="/">About Alpe</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main class="content__section">
+
+
+        <!-- Additional Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-10">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Contact Alpe</h5>
+                            <div class="text mb-0" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Reach out to us for inquiries and support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="row g-0 justify-content-center">
+                    <form class="contact__form col-lg-7">
+                        <!-- Form row -->
+                        <div class="row g-3">
+                            <div class="col-lg-6">
+                                <!-- First Name -->
+                                <input type="text" class="input__control mb-3" placeholder="First Name" required>
+
+                                <!-- Email address -->
+                                <input type="email" class="input__control mb-3" placeholder="Email address" required>
+
+                                <!-- Company name -->
+                                <input type="text" class="input__control mb-3" placeholder="Company Name" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- Last Name -->
+                                <input type="text" class="input__control mb-3" placeholder="Last Name" required>
+                                <div class="phone__control">
+                                    
+                                    <select class="country__select">
+                                        <option value="ae" data-flag="fi-ae" data-phone-code="+971">UAE</option>
+                                        <option value="us" data-flag="fi-us" data-phone-code="+1">USA</option>
+                                        <option value="gb" data-flag="fi-gb" data-phone-code="+44">UK</option>
+                                        <option value="fr" data-flag="fi-fr" data-phone-code="+33">France</option>
+                                        <option value="de" data-flag="fi-de" data-phone-code="+49">Germany</option>
+                                        <option value="it" data-flag="fi-it" data-phone-code="+39">Italy</option>
+                                        <option value="es" data-flag="fi-es" data-phone-code="+34">Spain</option>
+                                        <option value="ca" data-flag="fi-ca" data-phone-code="+1">Canada</option>
+                                        <option value="au" data-flag="fi-au" data-phone-code="+61">Australia</option>
+                                        <option value="in" data-flag="fi-in" data-phone-code="+91">India</option>
+                                        <option value="jp" data-flag="fi-jp" data-phone-code="+81">Japan</option>
+                                        <option value="cn" data-flag="fi-cn" data-phone-code="+86">China</option>
+                                        <option value="ru" data-flag="fi-ru" data-phone-code="+7">Russia</option>
+                                        <option value="sa" data-flag="fi-sa" data-phone-code="+966">Saudi Arabia</option>
+                                        <option value="br" data-flag="fi-br" data-phone-code="+55">Brazil</option>
+                                        <option value="mx" data-flag="fi-mx" data-phone-code="+52">Mexico</option>
+                                        <option value="kr" data-flag="fi-kr" data-phone-code="+82">South Korea</option>
+                                        <option value="ng" data-flag="fi-ng" data-phone-code="+234">Nigeria</option>
+                                        <option value="za" data-flag="fi-za" data-phone-code="+27">South Africa</option>
+                                        <option value="eg" data-flag="fi-eg" data-phone-code="+20">Egypt</option>
+                                    </select>
+                                    
+                                    <!-- Container for the custom dropdown -->
+                                    <div class="country__select-dropdown"></div>
+                                    <!-- Phone number -->
+                                    <input type="tel" class="input__control mb-3" placeholder="(+964)" pattern="^[+0-9()\-\s]*$"   required>
+                                </div>
+
+
+                                <!-- Subject -->
+                                <input type="text" class="input__control mb-3" placeholder="Subject" required>
+                            </div>
+                        </div>
+
+                        <!-- Message textarea -->
+                        <textarea name="message" id="message" class="input__control" placeholder="Message" rows="5"
+                            required></textarea>
+
+                        <!-- Terms and Conditions Checkbox -->
+                        <label class="checkbox__label mt-3">
+                            <input type="checkbox" class="checkbox__control" required>
+                            I agree with <a href="/terms" target="_blank">Terms & Conditions</a>
+                        </label>
+
+                        <!-- Submit Button -->
+                        <div class="mt-4">
+                            <button type="submit" class="primary__button">Contact Now</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Additional Section -->
+        <section class="section__padding">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Need Additional Info?
+                            </h5>
+                            <div class="text mb-4" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Explore more About Alpe, our services, marketplace features, and how we drive
+                                    efficiency
+                                    and growth in the oil industry.</p>
+                            </div>
+                            <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1400">Ask your
+                                question</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer__section bg-black text-white">
+        <!-- Footer Top: Contains navigation links for Customer Support, About Alpe, Resources for Buyers and Sellers -->
+        <div class="footer__top">
+            <div class="container">
+                <div class="row g-5 g-lg-4 row-cols-2 row-cols-lg-4">
+                    <!-- Customer Support Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Customer Support</h6>
+                            <ul class="list">
+                                <li><a href="/">Contact Alpe</a></li>
+                                <li><a href="/">Alpe Blogs</a></li>
+                                <li><a href="/">News & Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- About Alpe Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">About Alpe</h6>
+                            <ul class="list">
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/">Career</a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">Become Alpe Agent</a></li>
+                                <li><a href="/">Become Alpe Business Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Buyers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Buyers</h6>
+                            <ul class="list">
+                                <li><a href="/">Explore Categories</a></li>
+                                <li><a href="/">Post Requirements</a></li>
+                                <li><a href="/">Connect with Suppliers</a></li>
+                                <li><a href="/">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Sellers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Sellers</h6>
+                            <ul class="list">
+                                <li><a href="/">Connect with Buyer</a></li>
+                                <li><a href="/">Alpe Trade Assurance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Center: Logo, description, and social media links -->
+        <div class="footer__center mb-5">
+            <div class="container">
+                <div class="row g-0 justify-content-center text-center">
+                    <div class="col-lg-5">
+                        <figure class="footer__logo mb-3">
+                            <a href="/"><img src="./assets/images/logo-light.png" alt=""></a>
+                        </figure>
+                        <div class="text mb-4">
+                            <p>Alpe connects buyers and suppliers in the oil industry, offering secure, streamlined
+                                trading oils worldwide.</p>
+                        </div>
+                        <div class="social__link">
+                            <a href="/"><i class="alpe-icon-22"></i></a>
+                            <a href="/"><i class="alpe-icon-26"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom: Copyright and legal links -->
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <p>&copy;Alpe 2001-2024 | All Rights Reserved</p>
+                    </div>
+                    <div class="col text-end">
+                        <ul class="list inline">
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/requirement-modal.js"></script>
+    <script src="./assets/js/offer-modal.js"></script>
+    <script src="./assets/js/select.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Fixed Colors */
+:root {
+    --fixed-dark: #110B02; /* Always dark */
+    --fixed-white: #ffffff; /* Always white */
+}
+
+:root {
+    /* Light Mode - Color Palette */
+    --primary-color: #FABA4F; /* Purple */
+    --secondary-color: #F5F1EB; /* Light Purple */
+    --success-color: #5DB927; /* Success Green */
+    --danger-color: #FA4F4F; /* Danger Red */
+    --warning-color: #ffc107; /* Warning Yellow */
+    --info-color: #17a2b8; /* Info Blue */
+    --light-color: #B8B6B3; /* Light Gray */
+    --dark-color: #343a40; /* Dark Gray */
+
+
+    /* Neutral Colors */
+    --white: #ffffff;
+    --black: #110B02;
+    --gray: #F5F5F5;
+    --gray-100: #E7E6E5;
+    --gray-200: #CFCECC;
+    --gray-300: #B7B5B3;
+    --gray-400: #A09D9A;
+    --gray-500: #888580;
+    --gray-600: #706D67;
+    --gray-700: #59554E;
+    --gray-800: #413C35;
+    --gray-900: #29241C;
+
+    --primary-100: #FEF8ED; /* Lighter shade */
+    --primary-200: #FEF1DC;
+    --primary-300: #FDEACA;
+    --primary-400: #FDE3B9;
+    --primary-500: #FCDCA7; /* Base color */
+    --primary-600: #FCD695;
+    --primary-700: #FCCF84;
+    --primary-800: #FBC872;
+    --primary-900: #FBC161; /* Darker shade */
+
+
+    /* Typography */
+    --font-family-base: 'Inter', sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.6;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    /* Border Radius */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --border-radius-xl: 16px;
+    --border-radius-xxl: 24px;
+
+    /* Box Shadows */
+    --box-shadow-sm: 0 2px 8px rgba(17, 11, 2, 0.1);
+    --box-shadow-md: 0 4px 24px rgba(17, 11, 2, 0.2);
+    --box-shadow-lg: 0 8px 32px rgba(17, 11, 2, 0.3);
+
+    /* Z-Index */
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal: 1040;
+    --z-index-tooltip: 1050;
+
+    /* Transitions */
+    --transition-fast: 0.2s ease-in-out;
+    --transition-normal: 0.3s ease-in-out;
+    --transition-slow: 0.5s ease-in-out;
+}

@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic document setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpe - Global Hub for Oil & Energy Transactions</title>
+
+    <!-- Favicon and CSS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <header class="header__section">
+        <div class="navbar__area">
+            <div class="container">
+                <!-- Navbar header -->
+                <div class="navbar__header">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-12 col-lg-3 d-flex align-items-center logo__column">
+                            <a href="index.html" class="nav__logo">
+                                <img src="./assets/images/logo-dark.png" alt="Floxse">
+                            </a>
+                            <!-- Mobile toggle button -->
+                            <button class="toggle__button ms-2 ms-auto d-lg-none" type="button">
+                                <i class="alpe-icon-388"></i>
+                            </button>
+                        </div>
+                        <!-- Navigation menu -->
+                        <div class="col-12 col-lg-9 menu__column">
+                            <nav class="nav__menu">
+                                <ul class="nav__list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Buyers/Suppliers</a></li>
+                                    <li><a href="/">Become Partner</a>
+                                        <!-- Dropdown menu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Become Business Partner</a></li>
+                                            <li><a href="/">Become Agent</a></li>
+                                            <li><a href="/">Physical Market</a>
+                                                <!-- Submenu -->
+                                                <button class="toggle__arrow" type="button">
+                                                    <i class="alpe-icon-624"></i>
+                                                </button>
+                                                <ul>
+                                                    <li><a href="/">Physical Market</a></li>
+                                                    <li><a href="/">About Alpe</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">Physical Market</a></li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar footer with search and actions -->
+                <div class="navbar__footer">
+                    <div class="row g-4 align-items-center">
+                        <!-- Search bar and browse button -->
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
+                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                            </button>
+                            <div class="header__search_form">
+                                <input type="search" class="search__input" placeholder="Type to search">
+                                <div class="custom__select">
+                                    <select name="search__category" id="search__category" class="search__category">
+                                        <option value="product">Product</option>
+                                        <option value="product">News</option>
+                                        <option value="product">Events</option>
+                                        <option value="product">Blog</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                                <button class="primary__button">Search</button>
+                            </div>
+                        </div>
+                        <!-- Login and account actions -->
+                        <div class="col-md-4 text-end d-none d-lg-block">
+                            <a href="/" class="link__button">Log In</a>
+                            <a href="/" class="primary__button">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sticky Navbara -->
+    <div class="sticky__navbar">
+        <div class="container">
+            <div class="sticky__row d-flex flex-wrap align-items-center">
+
+                <a href="index.html" class="nav__logo me-4">
+                    <img src="./assets/images/logo-dark.png" alt="Floxse">
+                </a>
+
+                <div class="d-flex justify-content-end order-1 ms-auto">
+                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="primary__button">Create Account</a>
+                    <button class="toggle__button ms-2 d-lg-none" type="button">
+                        <i class="alpe-icon-388"></i>
+                    </button>
+                </div>
+
+                <div class="menu__column">
+                    <nav class="nav__menu">
+                        <ul class="nav__list justify-content-start">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Buyers/Suppliers</a></li>
+                            <li><a href="/">Become Partner</a>
+                                <!-- Dropdown menu -->
+                                <button class="toggle__arrow" type="button">
+                                    <i class="alpe-icon-624"></i>
+                                </button>
+                                <ul>
+                                    <li><a href="/">Become Business Partner</a></li>
+                                    <li><a href="/">Become Agent</a></li>
+                                    <li><a href="/">Physical Market</a>
+                                        <!-- Submenu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Physical Market</a></li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/">Physical Market</a></li>
+                            <li><a href="/">About Alpe</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main class="content__section">
+
+        <section class="pt-5">
+            <div class="container">
+                <div class="black-image-box" style="background-image: url('./assets/images/supplier-bg.jpg');">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 py-5 text-center">
+                            <div class="mb-2">
+                                <img src="./assets/images/eh-logo-sq.svg" alt="">
+                            </div>
+                            <h4 class="fw-semibold text-white text-upper mb-0">GREAT HARBOUR PETROLEUM</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <div class="container">
+                <div class="alpe__tabs">
+                    <div class="tabs__line__list tab__menu">
+                        <a href="#information__tab" class="tab active">Information</a>
+                        <a href="#available__products__tab" class="tab">Available Products</a>
+                        <a href="#inquire__tab" class="tab">Inquire</a>
+                    </div>
+                    <div class="tab__contents py-5">
+                        <div class="tab__content active" id="information__tab">
+                            <p>Crude oil is a naturally occurring, unrefined petroleum product found beneath the Earth's surface. Composed primarily of hydrocarbons and organic compounds, crude oil is one of the world's most valuable resources, driving economies and powering industries worldwide. It serves as the essential raw material for various fuels, including gasoline, diesel, jet fuel, and heating oil, as well as for countless products like plastics, chemicals, lubricants, and even pharmaceuticals.</p>
+                        </div>
+                        <div class="tab__content" id="available__products__tab">
+                            <div class="row g-3 gy-5 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                                <div class="col">
+                                    <div class="product__item">
+                                        <figure class="single__image">
+                                            <img src="./assets/images/sp-pro-2.jpg" alt="Bitumen">
+                                        </figure>
+                                        <div class="text-danger fw-medium mb-1 mt-3"><small>Not Available</small></div>
+                                        <h6 class="product__title mt-0"><a href="/">Liquefied Petroleum Gas (LPG)</a>
+                                        </h6>
+                                        <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span
+                                                class="tiptol check-icon"><i class="alpe-icon-57"></i><span
+                                                    class="tip"><i class="alpe-icon-55"></i>Alpe
+                                                    Business Partner</span></span>
+                                        </div>
+                                        <a href="/" class="primary__button outline mt-3">Request Product</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="product__item">
+                                        <figure class="single__image">
+                                            <img src="./assets/images/sp-pro-1.jpg" alt="Bitumen">
+                                        </figure>
+                                        <div class="text-success fw-medium mb-1 mt-3"><small>Available</small></div>
+                                        <h6 class="product__title mt-0"><a href="/">Crude Oil</a></h6>
+                                        <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span
+                                                class="tiptol check-icon"><i class="alpe-icon-57"></i><span
+                                                    class="tip"><i class="alpe-icon-55"></i>Alpe
+                                                    Business Partner</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="product__item">
+                                        <figure class="single__image">
+                                            <img src="./assets/images/sp-pro-7.jpg" alt="Bitumen">
+                                        </figure>
+                                        <div class="text-danger fw-medium mb-1 mt-3"><small>Not Available</small></div>
+                                        <h6 class="product__title mt-0"><a href="/">Propane</a></h6>
+                                        <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span
+                                                class="tiptol check-icon"><i class="alpe-icon-57"></i><span
+                                                    class="tip"><i class="alpe-icon-55"></i>Alpe
+                                                    Business Partner</span></span>
+                                        </div>
+                                        <a href="/" class="primary__button outline mt-3">Request Product</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="product__item">
+                                        <figure class="single__image">
+                                            <img src="./assets/images/sp-pro-8.jpg" alt="Bitumen">
+                                        </figure>
+                                        <div class="text-success fw-medium mb-1 mt-3"><small>Available</small></div>
+                                        <h6 class="product__title mt-0"><a href="/">Crude Oil</a></h6>
+                                        <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span
+                                                class="tiptol check-icon"><i class="alpe-icon-57"></i><span
+                                                    class="tip"><i class="alpe-icon-55"></i>Alpe
+                                                    Business Partner</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab__content" id="inquire__tab">
+                            <h4 class="fw-semibold mb-4">Enquire</h4>
+                            <form class="post-requirements-from">
+                                <!-- Row for form fields with spacing between elements -->
+                                <div class="row g-2">
+                                    <!-- First half of the form (left column) -->
+                                    <div class="col-md-6">
+                                        <div class="row g-2 row-cols-1">
+                                            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                                <!-- Input field for product name -->
+                                                <input type="text" class="input__control" placeholder="Product Name"
+                                                    required>
+                                            </div>
+                                            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                                <!-- Dropdown for selecting the quantity (in tons) -->
+                                                <div class="custom__select">
+                                                    <select name="quantity" id="quantity" class="select__control">
+                                                        <option value="100">100 Tons</option>
+                                                        <option value="200">200 Tons</option>
+                                                        <option value="300">300 Tons</option>
+                                                        <option value="400">400 Tons</option>
+                                                        <option value="500">500 Tons</option>
+                                                        <option value="600">600 Tons</option>
+                                                    </select>
+                                                    <div class="select_options"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                                <!-- Dropdown for shipping terms (FOB, CIF, etc.) -->
+                                                <div class="custom__select">
+                                                    <select name="shipping_terms" id="shipping_terms" class="select__control">
+                                                        <option value="FOB">FOB</option>
+                                                        <option value="CIF">CIF</option>
+                                                        <option value="DDP">DDP</option>
+                                                        <option value="EXW">EXW</option>
+                                                    </select>
+                                                    <div class="select_options"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                                <!-- Dropdown for selecting delivery timeline -->
+                                                <div class="custom__select">
+                                                    <select name="delivery_timeline" id="delivery_timeline"
+                                                        class="select__control">
+                                                        <option value="2-3 weeks">2-3 weeks</option>
+                                                        <option value="4-5 weeks">4-5 weeks</option>
+                                                        <option value="6-8 weeks">6-8 weeks</option>
+                                                        <option value="10-12 weeks">10-12 weeks</option>
+                                                    </select>
+                                                    <div class="select_options"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                                <!-- Dropdown for selecting payment methods -->
+                                                <div class="custom__select">
+                                                    <select name="payment_methods" id="payment_methods" class="select__control">
+                                                        <option value="Bank Transfer">Bank Transfer</option>
+                                                        <option value="Letter of Credit">Letter of Credit</option>
+                                                        <option value="Cash on Delivery">Cash on Delivery</option>
+                                                        <option value="Advance Payment">Advance Payment</option>
+                                                    </select>
+                                                    <div class="select_options"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <!-- Second half of the form (right column) -->
+                                    <div class="col-md-6">
+                                        <div class="row g-2 row-cols-1">
+                                            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                                <!-- Textarea for users to describe their requirements -->
+                                                <textarea name="requirements" id="requirements" class="input__control"
+                                                    rows="10" placeholder="Describe your requirements"></textarea>
+                                            </div>
+                                            <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                                                <!-- Submit button to send the form -->
+                                                <button class="primary__button size__lg w-100" type="submit">Submit your
+                                                    Request</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="fw-semibold mb-4">Supplier Information</h5>
+                <div class="gray-box p-4">
+                    <h6 class="mb-4 fw-medium h6">Shazand petrochemical company</h6>
+                    <ul class="list inline">
+                        <li><span class="alpe-icon-48 icon"></span><span class="text">240 Points</span></li>
+                        <li><span class="flag fi-ae icon"></span><span class="text">UNITED ARAB EMIRATES</span></li>
+                        <li><span class="alpe-icon-46 icon"></span><span class="text">880 0101 2828 7654</span></li>
+                        <li><span class="alpe-icon-41 icon"></span><span class="text">Sheikh Zayed Road, tower 12,
+                                Dubai, United Arab Emirates</span></li>
+                        <li><span class="alpe-icon-47 icon"></span><span class="text">Certified</span></li>
+                        <li><span class="alpe-icon-55 text-primary icon"></span><span class="text">Alpe Business
+                                Partner</span></li>
+                        <li><span class="alpe-icon-58 icon"></span><span class="text">greatharbour.ae</span></li>
+                    </ul>
+                    <div class="pb-4"></div>
+                    <a href="/" class="primary__button">Contact Now</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section__padding">
+            <div class="container">
+                <h4 class="fw-semibold mb-4">All Products</h4>
+                <div class="row g-3 gy-5 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-1.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-success fw-medium mb-1 mt-3"><small>Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Crude Oil</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-2.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-danger fw-medium mb-1 mt-3"><small>Not Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Liquefied Petroleum Gas (LPG)</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                            <a href="/" class="primary__button outline mt-3">Request Product</a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-3.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-success fw-medium mb-1 mt-3"><small>Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Natural Gas</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-4.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-success fw-medium mb-1 mt-3"><small>Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Coal</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-5.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-danger fw-medium mb-1 mt-3"><small>Not Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Biofuels</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                            <a href="/" class="primary__button outline mt-3">Request Product</a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-6.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-success fw-medium mb-1 mt-3"><small>Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Ethanol</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-7.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-danger fw-medium mb-1 mt-3"><small>Not Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Propane</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                            <a href="/" class="primary__button outline mt-3">Request Product</a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="product__item">
+                            <figure class="single__image">
+                                <img src="./assets/images/sp-pro-8.jpg" alt="Bitumen">
+                            </figure>
+                            <div class="text-success fw-medium mb-1 mt-3"><small>Available</small></div>
+                            <h6 class="product__title mt-0"><a href="/">Crude Oil</a></h6>
+                            <div class="product__sub_title">GREAT HARBOUR PETROLEUM <span class="tiptol check-icon"><i
+                                        class="alpe-icon-57"></i><span class="tip"><i class="alpe-icon-55"></i>Alpe
+                                        Business Partner</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="row g-0 row-cols-1 row-cols-md-2">
+                    <div class="col border border-gray-100 p-5">
+                        <h4 class="fw-semibold mb-4">Company Details</h4>
+                        <div class="row g-4 g-lg-5 row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">Business Type</h6>
+                                <p>OIl Manufacturer</p>
+                            </div>
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">Established year</h6>
+                                <p>2019</p>
+                            </div>
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">Main Market</h6>
+                                <p>United Arab Emirates</p>
+                            </div>
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">Employee Count</h6>
+                                <p>2000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col border border-gray-100 p-5">
+                        <h4 class="fw-semibold mb-4">Trading Details</h4>
+                        <div class="row g-4 g-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">GST No</h6>
+                                <p>04AAACS4668K1Z5</p>
+                            </div>
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">TAN No</h6>
+                                <p>Not Available</p>
+                            </div>
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">Nearest port</h6>
+                                <p>Bushehr</p>
+                            </div>
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">Total Revenue</h6>
+                                <p>Not Available</p>
+                            </div>
+                            <div class="col">
+                                <h6 class="fw-normal mb-2 h4">Export Percentage</h6>
+                                <p>Not Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section__padding">
+            <div class="container">
+                <h4 class="fw-semibold mb-4">Terms of Delivery (Incoterms)</h4>
+                <div class="incoterm__items">
+                    <div class="incoterm__item">
+                        <h6 class="incoterm__title">
+                            <div class="left-side">FOB <span class="alpe-icon-1074 mx-3"></span> <span class="text">Free
+                                    Alongside Ship</span></div>
+                            <div class="dots"><span class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-danger"></span><span class="bg-danger"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-warning"></span><span class="bg-warning"></span></div> <span
+                                class="arrow alpe-icon-624"></span>
+                        </h6>
+                        <div class="incoterm__content">
+                            <ul class="incoterm__list">
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading on departure</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Export declaration at customs</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport to the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading onto ship/aircraft in the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport (water/air) to port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Insurance</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Unloading at the port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Transport to destination</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Customs clearance upon import</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Import duties and taxes</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Unloading at destination</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="incoterm__item">
+                        <h6 class="incoterm__title">
+                            <div class="left-side">FOB <span class="alpe-icon-1074 mx-3"></span> <span class="text">Free
+                                    Alongside Ship</span></div>
+                            <div class="dots"><span class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-danger"></span><span class="bg-danger"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-warning"></span><span class="bg-warning"></span></div> <span
+                                class="arrow alpe-icon-624"></span>
+                        </h6>
+                        <div class="incoterm__content">
+                            <ul class="incoterm__list">
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading on departure</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Export declaration at customs</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport to the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading onto ship/aircraft in the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport (water/air) to port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Insurance</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Unloading at the port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Transport to destination</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Customs clearance upon import</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Import duties and taxes</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Unloading at destination</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="incoterm__item">
+                        <h6 class="incoterm__title">
+                            <div class="left-side">FOB <span class="alpe-icon-1074 mx-3"></span> <span class="text">Free
+                                    Alongside Ship</span></div>
+                            <div class="dots"><span class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-danger"></span><span class="bg-danger"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-warning"></span><span class="bg-warning"></span></div> <span
+                                class="arrow alpe-icon-624"></span>
+                        </h6>
+                        <div class="incoterm__content">
+                            <ul class="incoterm__list">
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading on departure</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Export declaration at customs</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport to the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading onto ship/aircraft in the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport (water/air) to port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Insurance</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Unloading at the port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Transport to destination</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Customs clearance upon import</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Import duties and taxes</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Unloading at destination</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="incoterm__item">
+                        <h6 class="incoterm__title">
+                            <div class="left-side">FOB <span class="alpe-icon-1074 mx-3"></span> <span class="text">Free
+                                    Alongside Ship</span></div>
+                            <div class="dots"><span class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-danger"></span><span class="bg-danger"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-warning"></span><span class="bg-warning"></span></div> <span
+                                class="arrow alpe-icon-624"></span>
+                        </h6>
+                        <div class="incoterm__content">
+                            <ul class="incoterm__list">
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading on departure</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Export declaration at customs</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport to the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading onto ship/aircraft in the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport (water/air) to port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Insurance</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Unloading at the port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Transport to destination</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Customs clearance upon import</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Import duties and taxes</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Unloading at destination</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="incoterm__item">
+                        <h6 class="incoterm__title">
+                            <div class="left-side">FOB <span class="alpe-icon-1074 mx-3"></span> <span class="text">Free
+                                    Alongside Ship</span></div>
+                            <div class="dots"><span class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-black"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-danger"></span><span class="bg-danger"></span><span
+                                    class="bg-black"></span><span class="bg-warning"></span><span
+                                    class="bg-warning"></span><span class="bg-warning"></span></div> <span
+                                class="arrow alpe-icon-624"></span>
+                        </h6>
+                        <div class="incoterm__content">
+                            <ul class="incoterm__list">
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading on departure</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Export declaration at customs</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport to the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Loading onto ship/aircraft in the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-black"></span>
+                                    <span class="desc">Transport (water/air) to port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Insurance</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Unloading at the port of entry</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Divided</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Truck unloading at the port of export</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Seller</span>
+                                    <span class="dot bg-danger"></span>
+                                    <span class="desc">Transport to destination</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Customs clearance upon import</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Import duties and taxes</span>
+                                </li>
+                                <li>
+                                    <span class="vendor">Buyer</span>
+                                    <span class="dot bg-warning"></span>
+                                    <span class="desc">Unloading at destination</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h4 class="fw-semibold mb-4">Key Terms Associated with this Company</h4>
+                <div class="tags">
+                    <a href="/">Crude Oil</a>
+                    <a href="/">Refined Petroleum</a>
+                    <a href="/">Lubricants & Greases</a>
+                    <a href="/">Bitumen & Asphalt</a>
+                    <a href="/">Biofuels</a>
+                    <a href="/">Chemical & Industrial Oils</a>
+                    <a href="/">Specialty Oils</a>
+                    <a href="/">Marine & Aviation Oils</a>
+                    <a href="/">Recycled & Re-Refined Oils</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Additional Section -->
+        <section class="section__padding">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Need Additional Info?
+                            </h5>
+                            <div class="text mb-4" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Explore more About Alpe, our services, marketplace features, and how we drive
+                                    efficiency
+                                    and growth in the oil industry.</p>
+                            </div>
+                            <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1400">Ask your
+                                question</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer__section bg-black text-white">
+        <!-- Footer Top: Contains navigation links for Customer Support, About Alpe, Resources for Buyers and Sellers -->
+        <div class="footer__top">
+            <div class="container">
+                <div class="row g-5 g-lg-4 row-cols-2 row-cols-lg-4">
+                    <!-- Customer Support Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Customer Support</h6>
+                            <ul class="list">
+                                <li><a href="/">Contact Alpe</a></li>
+                                <li><a href="/">Alpe Blogs</a></li>
+                                <li><a href="/">News & Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- About Alpe Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">About Alpe</h6>
+                            <ul class="list">
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/">Career</a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">Become Alpe Agent</a></li>
+                                <li><a href="/">Become Alpe Business Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Buyers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Buyers</h6>
+                            <ul class="list">
+                                <li><a href="/">Explore Categories</a></li>
+                                <li><a href="/">Post Requirements</a></li>
+                                <li><a href="/">Connect with Suppliers</a></li>
+                                <li><a href="/">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Sellers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Sellers</h6>
+                            <ul class="list">
+                                <li><a href="/">Connect with Buyer</a></li>
+                                <li><a href="/">Alpe Trade Assurance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Center: Logo, description, and social media links -->
+        <div class="footer__center mb-5">
+            <div class="container">
+                <div class="row g-0 justify-content-center text-center">
+                    <div class="col-lg-5">
+                        <figure class="footer__logo mb-3">
+                            <a href="/"><img src="./assets/images/logo-light.png" alt=""></a>
+                        </figure>
+                        <div class="text mb-4">
+                            <p>Alpe connects buyers and suppliers in the oil industry, offering secure, streamlined
+                                trading oils worldwide.</p>
+                        </div>
+                        <div class="social__link">
+                            <a href="/"><i class="alpe-icon-22"></i></a>
+                            <a href="/"><i class="alpe-icon-26"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom: Copyright and legal links -->
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <p>&copy;Alpe 2001-2024 | All Rights Reserved</p>
+                    </div>
+                    <div class="col text-end">
+                        <ul class="list inline">
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/requirement-modal.js"></script>
+    <script src="./assets/js/offer-modal.js"></script>
+    <script src="./assets/js/select.js"></script>
+</body>
+
+</html>

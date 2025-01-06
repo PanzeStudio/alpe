@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic document setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpe - Global Hub for Oil & Energy Transactions</title>
+
+    <!-- Favicon and CSS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <header class="header__section">
+        <div class="navbar__area">
+            <div class="container">
+                <!-- Navbar header -->
+                <div class="navbar__header">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-12 col-lg-3 d-flex align-items-center logo__column">
+                            <a href="index.html" class="nav__logo">
+                                <img src="./assets/images/logo-dark.png" alt="Floxse">
+                            </a>
+                            <!-- Mobile toggle button -->
+                            <button class="toggle__button ms-2 ms-auto d-lg-none" type="button">
+                                <i class="alpe-icon-388"></i>
+                            </button>
+                        </div>
+                        <!-- Navigation menu -->
+                        <div class="col-12 col-lg-9 menu__column">
+                            <nav class="nav__menu">
+                                <ul class="nav__list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Buyers/Suppliers</a></li>
+                                    <li><a href="/">Become Partner</a>
+                                        <!-- Dropdown menu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Become Business Partner</a></li>
+                                            <li><a href="/">Become Agent</a></li>
+                                            <li><a href="/">Physical Market</a>
+                                                <!-- Submenu -->
+                                                <button class="toggle__arrow" type="button">
+                                                    <i class="alpe-icon-624"></i>
+                                                </button>
+                                                <ul>
+                                                    <li><a href="/">Physical Market</a></li>
+                                                    <li><a href="/">About Alpe</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">Physical Market</a></li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar footer with search and actions -->
+                <div class="navbar__footer">
+                    <div class="row g-4 align-items-center">
+                        <!-- Search bar and browse button -->
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
+                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                            </button>
+                            <div class="header__search_form">
+                                <input type="search" class="search__input" placeholder="Type to search">
+                                <div class="custom__select">
+                                    <select name="search__category" id="search__category" class="search__category">
+                                        <option value="product">Product</option>
+                                        <option value="product">News</option>
+                                        <option value="product">Events</option>
+                                        <option value="product">Blog</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                                <button class="primary__button">Search</button>
+                            </div>
+                        </div>
+                        <!-- Login and account actions -->
+                        <div class="col-md-4 text-end d-none d-lg-block">
+                            <a href="/" class="link__button">Log In</a>
+                            <a href="/" class="primary__button">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Sticky Navbara -->
+    <div class="sticky__navbar">
+        <div class="container">
+            <div class="sticky__row d-flex flex-wrap align-items-center">
+
+                <a href="index.html" class="nav__logo me-4">
+                    <img src="./assets/images/logo-dark.png" alt="Floxse">
+                </a>
+
+                <div class="d-flex justify-content-end order-1 ms-auto">
+                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="primary__button">Create Account</a>
+                    <button class="toggle__button ms-2 d-lg-none" type="button">
+                        <i class="alpe-icon-388"></i>
+                    </button>
+                </div>
+
+                <div class="menu__column">
+                    <nav class="nav__menu">
+                        <ul class="nav__list justify-content-start">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Buyers/Suppliers</a></li>
+                            <li><a href="/">Become Partner</a>
+                                <!-- Dropdown menu -->
+                                <button class="toggle__arrow" type="button">
+                                    <i class="alpe-icon-624"></i>
+                                </button>
+                                <ul>
+                                    <li><a href="/">Become Business Partner</a></li>
+                                    <li><a href="/">Become Agent</a></li>
+                                    <li><a href="/">Physical Market</a>
+                                        <!-- Submenu -->
+                                        <button class="toggle__arrow" type="button">
+                                            <i class="alpe-icon-624"></i>
+                                        </button>
+                                        <ul>
+                                            <li><a href="/">Physical Market</a></li>
+                                            <li><a href="/">About Alpe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/">About Alpe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/">Physical Market</a></li>
+                            <li><a href="/">About Alpe</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main class="content__section">
+
+
+        <!-- Additional Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-10">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Physical Market</h5>
+                            <div class="text mb-0" data-aos="fade-up" data-aos-duration="1200">
+                                <p>The Physical Market connects buyers and sellers for direct transactions of oil and
+                                    petroleum products, ensuring reliable delivery, quality assurance, and tailored
+                                    procurement to meet business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section for displaying offers with top padding -->
+        <section class="offers__section">
+            <div class="container">
+                <div class="secondary-box p-4 mb-3">
+                    <div class="row g-3">
+                        <div class="col-sm-4 col-lg-2">
+                            <div class="input__group">
+                                <label for="release__date">Release date</label>
+                                <input type="date" id="release__date" class="input__control" placeholder="Release date">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <div class="input__group">
+                                <label for="size">Size</label>
+                                <div class="custom__select">
+                                    <select name="size" id="size" class="select__control">
+                                        <option value="100">100 Tons</option>
+                                        <option value="200">200 Tons</option>
+                                        <option value="300">300 Tons</option>
+                                        <option value="400">400 Tons</option>
+                                        <option value="500">500 Tons</option>
+                                        <option value="custom">Custom Size</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <div class="input__group">
+                                <label for="ring">Ring</label>
+                                <div class="custom__select">
+                                    <select name="ring" id="ring" class="select__control">
+                                        <option value="uae">UAE</option>
+                                        <option value="iraq">Iraq</option>
+                                        <option value="saudi">Saudi Arabia</option>
+                                        <option value="iran">Iran</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="input__group">
+                                <label for="commodity">Commodity</label>
+                                <div class="custom__select">
+                                    <select name="commodity" id="commodity" class="select__control">
+                                        <option value="cutting">Heavy Duty Cutting</option>
+                                        <option value="petroleum">Petroleum Products</option>
+                                        <option value="chemical">Chemical Products</option>
+                                        <option value="metals">Metals</option>
+                                        <option value="custom">Custom Commodity</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="input__group">
+                                <label for="supplier">Supplier</label>
+                                <div class="custom__select">
+                                    <select name="supplier" id="supplier" class="select__control">
+                                        <option value="shazand">Shazand Petrochemical Company</option>
+                                        <option value="aramco">Saudi Aramco</option>
+                                        <option value="bp">British Petroleum</option>
+                                        <option value="adnoc">ADNOC</option>
+                                        <option value="custom">Custom Supplier</option>
+                                    </select>
+                                    <div class="select_options"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-end mt-4 mt-lg-3">
+                        <a href="/" class="link__button">Clear</a>
+                        <a href="/" class="primary__button">Filter</a>
+                    </div>
+                </div>
+
+
+                <!-- Wrapper for the offer table -->
+                <div class="offer__table__wrapper">
+
+                    <!-- Table for displaying offers with headers and data -->
+                    <table class="table offer__table">
+
+                        <!-- Table Header with icons for each column -->
+                        <thead>
+                            <tr>
+                                <!-- Column headers with FontAwesome icons -->
+                                <th><i class="alpe-icon-0"></i> Release date</th>
+                                <th><i class="alpe-icon-52"></i> Size</th>
+                                <th><i class="alpe-icon-59"></i> Ring</th>
+                                <th><i class="alpe-icon-43"></i> Commodity</th>
+                                <th><i class="alpe-icon-53"></i> Supplier</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Example of multiple rows with unique offer details -->
+                            <tr>
+                                <td data-title="Release date">29/10/24</td>
+                                <td data-title="Size">100 Tons</td>
+                                <td data-title="Ring">
+                                    <!-- Flag icon and country name -->
+                                    <div class="flex-center"><span class="flag fi-ae me-1"></span> UAE</div>
+                                </td>
+                                <td data-title="Commodity">Heavy Duty Cutting</td>
+                                <td data-title="Supplier">Shazand Petrochemical Company</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">01/11/24</td>
+                                <td data-title="Size">50 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-us me-1"></span> USA</div>
+                                </td>
+                                <td data-title="Commodity">Light Industrial Grease</td>
+                                <td data-title="Supplier">ExxonMobil</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">15/11/24</td>
+                                <td data-title="Size">200 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-cn me-1"></span> China</div>
+                                </td>
+                                <td data-title="Commodity">Polyethylene</td>
+                                <td data-title="Supplier">Sinopec</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">25/10/24</td>
+                                <td data-title="Size">300 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-in me-1"></span> India</div>
+                                </td>
+                                <td data-title="Commodity">HDPE Resin</td>
+                                <td data-title="Supplier">Reliance Industries</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">05/12/24</td>
+                                <td data-title="Size">80 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-sa me-1"></span> Saudi Arabia</div>
+                                </td>
+                                <td data-title="Commodity">Synthetic Rubber</td>
+                                <td data-title="Supplier">Aramco Chemicals</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">12/12/24</td>
+                                <td data-title="Size">120 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-ru me-1"></span> Russia</div>
+                                </td>
+                                <td data-title="Commodity">Crude Oil</td>
+                                <td data-title="Supplier">Gazprom Neft</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">20/12/24</td>
+                                <td data-title="Size">90 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-br me-1"></span> Brazil</div>
+                                </td>
+                                <td data-title="Commodity">Bioethanol</td>
+                                <td data-title="Supplier">Petrobras</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">10/01/25</td>
+                                <td data-title="Size">75 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-ng me-1"></span> Nigeria</div>
+                                </td>
+                                <td data-title="Commodity">Natural Gas</td>
+                                <td data-title="Supplier">NNPC Limited</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">15/01/25</td>
+                                <td data-title="Size">180 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-jp me-1"></span> Japan</div>
+                                </td>
+                                <td data-title="Commodity">Industrial Lubricants</td>
+                                <td data-title="Supplier">JXTG Nippon Oil</td>
+                            </tr>
+                            <tr>
+                                <td data-title="Release date">20/01/25</td>
+                                <td data-title="Size">65 Tons</td>
+                                <td data-title="Ring">
+                                    <div class="flex-center"><span class="flag fi-de me-1"></span> Germany</div>
+                                </td>
+                                <td data-title="Commodity">Polypropylene</td>
+                                <td data-title="Supplier">BASF</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+                <!-- Button to view all offers with animation on scroll -->
+                <div class="mt-4 text-center">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <!-- Previous Button -->
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <i class="alpe-icon-623"></i>
+                                </a>
+                            </li>
+
+                            <!-- Page Numbers -->
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><span class="page-link"><i class="alpe-icon-376"></i></span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+
+                            <!-- Next Button -->
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <i class="alpe-icon-619"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Additional Section -->
+        <section class="section__padding">
+            <div class="container">
+                <div class="gray-box p-4 p-md-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <h5 class="fw-medium mb-3" data-aos="fade-up" data-aos-duration="1000">Need Additional Info?
+                            </h5>
+                            <div class="text mb-4" data-aos="fade-up" data-aos-duration="1200">
+                                <p>Explore more About Alpe, our services, marketplace features, and how we drive
+                                    efficiency
+                                    and growth in the oil industry.</p>
+                            </div>
+                            <a href="/" class="primary__button" data-aos="fade-up" data-aos-duration="1400">Ask your
+                                question</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer__section bg-black text-white">
+        <!-- Footer Top: Contains navigation links for Customer Support, About Alpe, Resources for Buyers and Sellers -->
+        <div class="footer__top">
+            <div class="container">
+                <div class="row g-5 g-lg-4 row-cols-2 row-cols-lg-4">
+                    <!-- Customer Support Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Customer Support</h6>
+                            <ul class="list">
+                                <li><a href="/">Contact Alpe</a></li>
+                                <li><a href="/">Alpe Blogs</a></li>
+                                <li><a href="/">News & Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- About Alpe Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">About Alpe</h6>
+                            <ul class="list">
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/">Career</a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">Become Alpe Agent</a></li>
+                                <li><a href="/">Become Alpe Business Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Buyers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Buyers</h6>
+                            <ul class="list">
+                                <li><a href="/">Explore Categories</a></li>
+                                <li><a href="/">Post Requirements</a></li>
+                                <li><a href="/">Connect with Suppliers</a></li>
+                                <li><a href="/">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Resources for Sellers Links -->
+                    <div class="col">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Resources For Sellers</h6>
+                            <ul class="list">
+                                <li><a href="/">Connect with Buyer</a></li>
+                                <li><a href="/">Alpe Trade Assurance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Center: Logo, description, and social media links -->
+        <div class="footer__center mb-5">
+            <div class="container">
+                <div class="row g-0 justify-content-center text-center">
+                    <div class="col-lg-5">
+                        <figure class="footer__logo mb-3">
+                            <a href="/"><img src="./assets/images/logo-light.png" alt=""></a>
+                        </figure>
+                        <div class="text mb-4">
+                            <p>Alpe connects buyers and suppliers in the oil industry, offering secure, streamlined
+                                trading oils worldwide.</p>
+                        </div>
+                        <div class="social__link">
+                            <a href="/"><i class="alpe-icon-22"></i></a>
+                            <a href="/"><i class="alpe-icon-26"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom: Copyright and legal links -->
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <p>&copy;Alpe 2001-2024 | All Rights Reserved</p>
+                    </div>
+                    <div class="col text-end">
+                        <ul class="list inline">
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- 
+<div class="modal">
+    <div class="modal__body">
+        <div class="modal__header">
+            <h5 class="fw-semibold">Bandar Imam Petrochemical Company</h5>
+        </div>
+        <div class="modal__content">
+            <table class="modal__table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="label">Release date & time</div>
+                            <div class="row text">
+                                <div class="col">17/12/2024</div>
+                                <div class="col"><span class="line"></span></div>
+                                <div class="col">10:41 AM</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="label">Product brand name</div>
+                            <div class="text">Basra Oil Company (BOC)</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="label">Product Symbol</div>
+                            <div class="text">ALPGEGW018765</div>
+                        </td>
+                        <td>
+                            <div class="label">Supplier broker</div>
+                            <div class="text">Al-Iraqia Petroleum Trading</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="label">Supplier</div>
+                            <div class="text">Basra Oil Company (BOC)</div>
+                        </td>
+                        <td>
+                            <div class="label">Manufacturer</div>
+                            <div class="text">Basra Oil Company (BOC)</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="label">Maximum increase in supply volume</div>
+                                    <div class="text">A person</div>
+                                </div>
+                                <div class="col">
+                                    <div class="label">Display size</div>
+                                    <div class="text">12, 000 tons</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="label">Product Specification</div>
+                            <div class="text">According to the prospectus & offer notice</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="label">Maximum order price change</div>
+                            <div class="text">$0.01 <small>(According to the mechanism approved by the Board of Directors of Iraq Energy Exchange)</small></div>
+                        </td>
+                        <td>
+                            <div class="label">Base price</div>
+                            <div class="text">$5200.00 <small>(According to the mechanism approved by the Board of Directors of Iraq Energy Exchange)</small></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="label">Transaction type</div>
+                            <div class="text">Salaf</div>
+                        </td>
+                        <td>
+                            <div class="label">Minimum purchase to find out the price</div>
+                            <div class="text">1500 tons</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="label">Minimum purchase ton</div>
+                                    <div class="text">5,000 tons</div>
+                                </div>
+                                <div class="col">
+                                    <div class="label">Maximum purchase ton</div>
+                                    <div class="text">15, 000 tons</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="label">Allocation base unit</div>
+                            <div class="text">Tone</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="modal__footer">
+            <div class="text-end mt-4">
+                <a href="/" class="primary__button size__lg">
+                    Report Creation
+                </a>
+                <a href="/" class="link__button">
+                    <i class="alpe-icon-1069 me-2"></i> Cancel
+                </a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/requirement-modal.js"></script>
+<script src="./assets/js/offer-modal.js"></script>
+<script src="./assets/js/select.js"></script>
+</body>
+
+</html>
