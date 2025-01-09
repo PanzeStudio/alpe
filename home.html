@@ -72,9 +72,55 @@
                     <div class="row g-4 align-items-center">
                         <!-- Search bar and browse button -->
                         <div class="col-lg-8 d-flex align-items-center">
-                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
-                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
-                            </button>
+                            <div class="browse__category">
+                                <button class="browse__button dark__button size__lg me-4 d-none d-md-inline-flex">
+                                    <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                                </button>
+                                <div class="category__modal">
+                                    <div class="category__items">
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-1.png" alt="">
+                                            <span class="name">Crude Oil</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-2.png" alt="">
+                                            <span class="name">Refined Petroleum</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-3.png" alt="">
+                                            <span class="name">Lubricants and Greases</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-4.png" alt="">
+                                            <span class="name">Specialty Oils</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-5.png" alt="">
+                                            <span class="name">Natural Gas</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-6.png" alt="">
+                                            <span class="name">Bitumen and Asphalt</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-7.png" alt="">
+                                            <span class="name">Biofuels</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-8.png" alt="">
+                                            <span class="name">Chemical and Industrial Oils</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-9.png" alt="">
+                                            <span class="name">Marine and Aviation Oils</span>
+                                        </a>
+                                        <a href="/" class="category__item button">
+                                            <span class="icon alpe-icon-43"></span>
+                                            <span class="name">All Products</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="header__search_form">
                                 <input type="search" class="search__input" placeholder="Type to search">
                                 <div class="custom__select">
@@ -105,7 +151,7 @@
             <div class="container">
                 <div class="row g-4 align-items-center justify-content-center">
                     <!-- Header content -->
-                    <div class="col-lg-8 text-center">
+                    <div class="col-xxl-8 text-center">
                         <h1 class="main__heading mb-4" data-aos="fade-up" data-aos-duration="1000">Global Hub for<br>Oil
                             &
                             Energy Transactions</h1>
@@ -124,7 +170,6 @@
         </div>
     </header>
 
-    
     <!-- Sticky Navbara -->
     <div class="sticky__navbar">
         <div class="container">
@@ -135,7 +180,7 @@
                 </a>
 
                 <div class="d-flex justify-content-end order-1 ms-auto">
-                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="link__button d-none d-sm-inline-block">Log In</a>
                     <a href="/" class="primary__button">Create Account</a>
                     <button class="toggle__button ms-2 d-lg-none" type="button">
                         <i class="alpe-icon-388"></i>
@@ -178,30 +223,23 @@
         </div>
     </div>
 
-
-
     <main class="content__section">
         <!-- High-Demand Section -->
         <section class="section__padding">
             <div class="container">
-
                 <!-- Section Title: High-Demand Items with fade-up animation -->
                 <h3 class="section__title mb-4" data-aos="fade-up" data-aos-duration="1000">
                     High-Demand Items
                 </h3>
-
                 <!-- Row containing the content (left and right side of the section) -->
                 <div class="row g-4">
-
                     <!-- Left side (larger item, takes 8 columns on medium screens) -->
                     <div class="col-md-8">
                         <div class="demand__item">
-
                             <!-- Image for the high-demand item -->
                             <figure class="demand__image">
                                 <img src="./assets/images/demand-1.jpg" alt="">
                             </figure>
-
                             <!-- Content box with center alignment and padding -->
                             <div class="demand__content center p-3 p-lg-5">
                                 <!-- Title for the first item with fade-up animation -->
@@ -219,16 +257,13 @@
                     <!-- Right side (two smaller items, each takes 12 columns on small screens) -->
                     <div class="col-md-4">
                         <div class="row g-4">
-
                             <!-- First smaller item -->
                             <div class="col-12">
                                 <div class="demand__item">
-
                                     <!-- Image for the second item -->
                                     <figure class="demand__image">
                                         <img src="./assets/images/demand-2.jpg" alt="">
                                     </figure>
-
                                     <!-- Content box aligned to the bottom with padding -->
                                     <div class="demand__content bottom p-3 p-lg-4">
                                         <!-- Title for the second item with fade-up animation -->
@@ -250,7 +285,6 @@
                                     <figure class="demand__image">
                                         <img src="./assets/images/demand-3.jpg" alt="">
                                     </figure>
-
                                     <!-- Content box aligned to the top with padding -->
                                     <div class="demand__content top p-3 p-lg-4">
                                         <!-- Title for the third item with fade-up animation -->
@@ -359,7 +393,7 @@
                                 <th><i class="alpe-icon-53"></i> Supplier</th>
                             </tr>
                         </thead>
-                        
+
                         <tbody>
                             <!-- Example of multiple rows with unique offer details -->
                             <tr>
@@ -454,7 +488,7 @@
                                 <td data-title="Supplier">BASF</td>
                             </tr>
                         </tbody>
-                        
+
                     </table>
                 </div>
 
@@ -597,7 +631,8 @@
 
                     <!-- Second column with the actual form to submit buying requirements -->
                     <div class="col-lg-7">
-                        <form class="post-requirements-from bg-white border-gray-100 border br-xl p-4 p-md-5 flex-center h-100">
+                        <form
+                            class="post-requirements-from bg-white border-gray-100 border br-xl p-4 p-md-5 flex-center h-100">
                             <!-- Row for form fields with spacing between elements -->
                             <div class="row g-2">
                                 <!-- First half of the form (left column) -->
@@ -625,7 +660,8 @@
                                         <div class="col" data-aos="fade-up" data-aos-duration="1000">
                                             <!-- Dropdown for shipping terms (FOB, CIF, etc.) -->
                                             <div class="custom__select">
-                                                <select name="shipping_terms" id="shipping_terms" class="select__control">
+                                                <select name="shipping_terms" id="shipping_terms"
+                                                    class="select__control">
                                                     <option value="FOB">FOB</option>
                                                     <option value="CIF">CIF</option>
                                                     <option value="DDP">DDP</option>
@@ -650,7 +686,8 @@
                                         <div class="col" data-aos="fade-up" data-aos-duration="1000">
                                             <!-- Dropdown for selecting payment methods -->
                                             <div class="custom__select">
-                                                <select name="payment_methods" id="payment_methods" class="select__control">
+                                                <select name="payment_methods" id="payment_methods"
+                                                    class="select__control">
                                                     <option value="Bank Transfer">Bank Transfer</option>
                                                     <option value="Letter of Credit">Letter of Credit</option>
                                                     <option value="Cash on Delivery">Cash on Delivery</option>
@@ -733,7 +770,7 @@
                 </div>
 
                 <!-- Info Boxes Row -->
-                 
+
                 <div class="row g-4 row-cols-1 row-cols-md-3">
                     <!-- Info Box 1: Global Exposure -->
                     <div class="col" data-aos="fade-up" data-aos-duration="1000">
@@ -938,6 +975,8 @@
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/requirement-modal.js"></script>
     <script src="./assets/js/offer-modal.js"></script>
+    <script src="./assets/js/quote-modal.js"></script>
+    <script src="./assets/js/inquiry-modal.js"></script>
     <script src="./assets/js/select.js"></script>
 </body>
 

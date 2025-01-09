@@ -1266,3 +1266,64 @@ nav.nav__menu .nav__list li {
 .alpe__tabs .tab__content:not(.active) {
     display: none;
 }
+
+.category__modal {
+    position: absolute;
+    top: calc(100% + var(--spacing-lg));
+    left: 0;
+    right: 0;
+    background-color: var(
+    --white);
+    padding: var(--spacing-xl);
+    border: 1px solid var(
+    --gray);
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    border-radius: var(--border-radius-xl);
+    display: none;
+}
+
+.category__modal .category__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(0px - var(--spacing-sm));
+}
+
+.category__modal .category__item {
+    display: inline-flex;
+    align-items: center;
+    margin: var(--spacing-sm);
+    border: 1px solid var(--gray-100);
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-lg);
+    color: var(--black);
+    max-width: 234px;
+    min-width: calc(20% - 16px);
+    box-shadow: 0 0 0 0 white;
+}
+
+.category__modal .category__item:hover {
+    background-color: var(--primary-100);
+    border-color: var(--primary-600);
+    box-shadow: var(--box-shadow-sm);
+}
+
+.category__modal .category__item img {
+    border-radius: var(--border-radius-md);
+    margin-right: var(--spacing-md);
+    width: 64px;
+    min-width: 64px;
+}
+
+.category__modal .category__item .icon {
+    width: 64px;
+    height: 64px;
+    background-color: var(--primary-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-md);
+    margin-right: var(--spacing-md);
+    font-size: 30px;
+}

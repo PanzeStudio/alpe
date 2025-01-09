@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     <!-- Navbar Section -->
     <header class="header__section">
         <div class="navbar__area">
@@ -73,9 +72,55 @@
                     <div class="row g-4 align-items-center">
                         <!-- Search bar and browse button -->
                         <div class="col-lg-8 d-flex align-items-center">
-                            <button class="dark__button size__lg me-4 d-none d-md-inline-flex">
-                                <i class="alpe-icon-37 left__icon"></i>Browse Categories
-                            </button>
+                            <div class="browse__category">
+                                <button class="browse__button dark__button size__lg me-4 d-none d-md-inline-flex">
+                                    <i class="alpe-icon-37 left__icon"></i>Browse Categories
+                                </button>
+                                <div class="category__modal">
+                                    <div class="category__items">
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-1.png" alt="">
+                                            <span class="name">Crude Oil</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-2.png" alt="">
+                                            <span class="name">Refined Petroleum</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-3.png" alt="">
+                                            <span class="name">Lubricants and Greases</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-4.png" alt="">
+                                            <span class="name">Specialty Oils</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-5.png" alt="">
+                                            <span class="name">Natural Gas</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-6.png" alt="">
+                                            <span class="name">Bitumen and Asphalt</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-7.png" alt="">
+                                            <span class="name">Biofuels</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-8.png" alt="">
+                                            <span class="name">Chemical and Industrial Oils</span>
+                                        </a>
+                                        <a href="/" class="category__item">
+                                            <img src="./assets/images/cat-9.png" alt="">
+                                            <span class="name">Marine and Aviation Oils</span>
+                                        </a>
+                                        <a href="/" class="category__item button">
+                                            <span class="icon alpe-icon-43"></span>
+                                            <span class="name">All Products</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="header__search_form">
                                 <input type="search" class="search__input" placeholder="Type to search">
                                 <div class="custom__select">
@@ -99,6 +144,30 @@
                 </div>
             </div>
         </div>
+        <!-- Header Section -->
+        <div class="header__area">
+            <div class="header__image"><img data-aos="fade-down" data-aos-duration="1500"
+                    src="./assets/images/header-image.png" alt=""></div>
+            <div class="container">
+                <div class="row g-4 align-items-center justify-content-center">
+                    <!-- Header content -->
+                    <div class="col-lg-8 text-center">
+                        <h1 class="main__heading mb-4" data-aos="fade-up" data-aos-duration="1000">Global Hub for<br>Oil
+                            &
+                            Energy Transactions</h1>
+                        <div class="sub__heading mb-5" data-aos="fade-up" data-aos-duration="1200">
+                            <p>Partner with the right expert to drive your business growth.</p>
+                        </div>
+                        <!-- Call-to-action button -->
+                        <div class="header__actions">
+                            <a href="/" class="primary__button size__lg" data-aos="fade-up" data-aos-duration="1500">
+                                Browse Physical Market
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- Sticky Navbara -->
@@ -111,7 +180,7 @@
                 </a>
 
                 <div class="d-flex justify-content-end order-1 ms-auto">
-                    <a href="/" class="link__button">Log In</a>
+                    <a href="/" class="link__button d-none d-sm-inline-block">Log In</a>
                     <a href="/" class="primary__button">Create Account</a>
                     <button class="toggle__button ms-2 d-lg-none" type="button">
                         <i class="alpe-icon-388"></i>
@@ -367,12 +436,13 @@
     </footer>
 
 
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/requirement-modal.js"></script>
     <script src="./assets/js/offer-modal.js"></script>
+    <script src="./assets/js/quote-modal.js"></script>
+    <script src="./assets/js/inquiry-modal.js"></script>
     <script src="./assets/js/select.js"></script>
 </body>
 

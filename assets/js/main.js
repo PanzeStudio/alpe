@@ -74,7 +74,7 @@ AOS.init({
 
         // Toggle visibility of .menu__column inside the same .row when a .toggle__button is clicked
         $('.toggle__button').on('click', function () {
-            $(this).closest('.sticky__row').find('.menu__column').slideToggle();
+            $(this).closest('.sticky__row,.row').find('.menu__column').slideToggle();
             $(this).toggleClass('active'); // Toggle the 'active' class for the button
             $(this).find('i').toggleClass('alpe-icon-388 alpe-icon-1069');
         });
@@ -93,6 +93,17 @@ AOS.init({
             $(this).val($(this).val().replace(/[^0-9+\-()\s]/g, ''));
         });
 
+        $('body').on('click', '.browse__category .browse__button', function () {
+            $(this).siblings('.category__modal').fadeToggle();
+            return false;
+        });
+
+        $(document).on('click', function (e) {
+            if (!$(e.target).closest('.browse__category').length) {
+              // Click is outside .browse__category
+              $('.category__modal').fadeOut();
+            }
+        });
 
     });
 
